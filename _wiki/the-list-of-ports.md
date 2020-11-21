@@ -143,7 +143,7 @@ keywords: Port
 
 ### 0X01  TCP 端口（动态端口）
 |	端口类型	|	端口号	|	注释	|
-|----|----|----|
+|---|---|---|
 |	TCP	|	1024	|	NetSpy.698(YAI)	|
 |	TCP	|	1025	|	NetSpy.698,Unused Windows Services Block	|
 |	TCP	|	1026	|	Unused Windows Services Block	|
@@ -544,7 +544,7 @@ keywords: Port
 
 ### 0X03  UDP 端口（静态端口）
 |	端口类型	|	端口号	|	注释	|
-|----|----|----|
+|---|---|---|
 |	UDP	|	1	|	Sockets des Troie	|
 |	UDP	|	9	|	Chargen	|
 |	UDP	|	19	|	Chargen	|
@@ -557,7 +557,7 @@ keywords: Port
 
 ### 0X04  UDP 端口（动态端口）
 |	端口类型	|	端口号	|	注释	|
-|----|----|----|
+|---|---|---|
 |	UDP	|	1025	|	Maverick’s Matrix 1.2 - 2.0	|
 |	UDP	|	1026	|	Remote Explorer 2000	|
 |	UDP	|	1027	|	UC聊天软件，Trojan.Huigezi.e	|
