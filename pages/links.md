@@ -1,14 +1,12 @@
 ---
 layout: page
-title: Links
+title: 网络安全从业者安全导航
 description: 没有链接的博客是孤独的
 keywords: 友情链接
 comments: true
 menu: 链接
 permalink: /links/
 ---
-
-# 网络安全从业者安全导航
 
 ## 0X00 漏洞平台
 
