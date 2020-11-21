@@ -14,7 +14,37 @@ permalink: /links/
 
 <ul>
 {% for link in site.data.links %}
-  {% if link.src == 'life' %}
+  {% if link.src == '0X00.0' %}
+  <li><a href="{{ link.url }}" target="_blank">{{ link.name}}</a></li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+### 0X00.1 国外漏洞平台
+
+<ul>
+{% for link in site.data.links %}
+  {% if link.src == '0X00.1' %}
+  <li><a href="{{ link.url }}" target="_blank">{{ link.name}}</a></li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+### 0X00.2 国内漏洞平台
+
+<ul>
+{% for link in site.data.links %}
+  {% if link.src == '0X00.2' %}
+  <li><a href="{{ link.url }}" target="_blank">{{ link.name}}</a></li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+### 0X00.3 SRC众测平台
+
+<ul>
+{% for link in site.data.links %}
+  {% if link.src == '0X00.3' %}
   <li><a href="{{ link.url }}" target="_blank">{{ link.name}}</a></li>
   {% endif %}
 {% endfor %}
