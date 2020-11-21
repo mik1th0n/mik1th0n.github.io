@@ -8,9 +8,11 @@ menu: 链接
 permalink: /links/
 ---
 
-# 网络安全从业者安全导航
+# 0X00  网络安全从业者安全导航
 
-## 漏洞平台
+## 0X00.0 漏洞平台
+
+### 0X00.0.0 热门推荐
 
 <ul>
 {% for link in site.data.links %}
