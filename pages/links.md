@@ -8,6 +8,8 @@ menu: 链接
 permalink: /links/
 ---
 
+[TOC]
+
 ## 0X00 漏洞平台
 
 ### 0X00.0 热门推荐
