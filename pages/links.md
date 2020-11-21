@@ -8,7 +8,9 @@ menu: 链接
 permalink: /links/
 ---
 
-> God made relatives. Thank God we can choose our friends.
+> 网络安全从业者安全导航
+
+# 漏洞平台
 
 <ul>
 {% for link in site.data.links %}
@@ -18,7 +20,7 @@ permalink: /links/
 {% endfor %}
 </ul>
 
-> 友情链接
+# 知识学习
 
 <ul>
 {% for link in site.data.links %}
