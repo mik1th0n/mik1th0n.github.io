@@ -806,12 +806,292 @@
   url: https://websec.readthedocs.io/zh/latest/
   src: 0X01.3
 
-- name: 
-  url: 
+- name: 360安全报告
+  url: https://research.360.cn/report/
   src: 0X01.4
 
-- name: 
-  url: 
+- name: 看雪KSSD
+  url: https://www.pediy.com/kssd/index.html
   src: 0X01.4
+
+- name: Hack Inn-PPT安全技术分享
+  url: https://www.hackinn.com/
+  src: 0X01.4
+
+- name: 深蓝阅读
+  url: https://bluereader.org/
+  src: 0X01.4
+
+- name: 安全论文
+  url: https://loccs.sjtu.edu.cn/
+  src: 0X01.4
+
+- name: 信息安全知识库
+  url: https://vipread.com/index
+  src: 0X01.4
+
+- name: 收集家 - IT视频网 - 共享精神
+  url: http://www.00com.org/
+  src: 0X01.4
+
+- name: CSDN知识库 - 你身边的技术百科全书
+  url: https://so.csdn.net/
+  src: 0X01.4
+
+- name: 简明现代魔法
+  url: http://www.nowamagic.net/
+  src: 0X01.4
+
+- name: 菜鸟教程
+  url: https://www.shentoushi.top/knowledge
+  src: 0X01.4
+
+- name: w3school 在线教程
+  url: https://www.w3school.com.cn/
+  src: 0X01.4
+
+- name: 百度传课|IT/计算机/互联网/网络安全/网络课程/网络
+  url: http://chuanke.baidu.com/
+  src: 0X01.4
+
+- name: 腾讯课堂_专业的在线教育平台
+  url: https://ke.qq.com/
+  src: 0X01.4
+
+- name: 中国大学MOOC(慕课)
+  url: https://www.icourse163.org/
+  src: 0X01.4
+
+- name: 安全客CTF训练营
+  url: https://www.anquanke.com/tag/CTF%E9%80%9A%E5%85%B3%E6%94%BB%E7%95%A5
+  src: 0X01.4
+
+- name: i春秋学院
+  url: https://www.ichunqiu.com/
+  src: 0X01.4
+
+- name: 合天网络安全实验室
+  url: https://www.hetianlab.com/
+  src: 0X01.4
+
+- name: 实验吧——让实验更简单|靶场|CTF
+  url: https://www.shiyanbar.com/upgrade.html
+  src: 0X01.4
+
+- name: CTF训练营
+  url: http://ctf.idf.cn/
+  src: 0X01.4
+
+- name: 安全牛课堂
+  url: https://www.aqniukt.com/
+  src: 0X01.4
+
+- name: 网易云课堂 - 领先的实用技能学习平台
+  url: https://study.163.com/
+  src: 0X01.4
+
+- name: 网络安全实验室|网络信息安全攻防学习平台
+  url: http://hackinglab.cn/
+  src: 0X01.4
+
+- name: 云课堂CS课程谱
+  url: https://study.163.com/curricula/cs.htm
+  src: 0X01.4
+
+- name: InfoSec Addicts|Cyber Security
+  url: https://infosecaddicts.com/
+  src: 0X01.4
+
+- name: hak5——Technolust since 2005
+  url: https://shop.hak5.org/
+  src: 0X01.4
+
+- name: Root Me——黑客与信息安全学习平台
+  url: https://www.root-me.org/?lang=en
+  src: 0X01.4
+
+- name: 实验楼——在线做实验，高效学编程
+  url: https://www.lanqiao.cn/courses/?show_merge_modal=true
+  src: 0X01.4
+
+- name: 墨者学院——专注于网络安全人才培养
+  url: https://mozhe.cn
+  src: 0X01.4
+
+- name: CTFwriteup|固定资料库
+  url: https://github.com/ctfs
+  src: 0X01.5
+
+- name: CTFTime|关于CTF|捕获旗
+  url: https://ctftime.org/
+  src: 0X01.5
+
+- name: CTF Wiki——CTF知识整合站点
+  url: https://ctf-wiki.github.io/ctf-wiki/index.html
+  src: 0X01.5
+
+- name: Ctf解决方案
+  url: https://github.com/p4-team/ctf
+  src: 0X01.5
+
+- name: XCTF社区——白帽子与安全极客的交流社区
+  url: https://www.xctf.org.cn/
+  src: 0X01.5
+
+- name: CTF资源库——致力于为CTFer提供便利
+  url: https://www.ctftools.com/
+  src: 0X01.5
+
+- name: CTF交流社区
+  url: https://www.bugku.com/
+  src: 0X01.5
+
+- name: pwnhub | beta
+  url: https://pwnhub.cn/index
+  src: 0X01.5
+
+- name: CTF挑战赛——合天网安实验室
+  url: https://www.hetianlab.com/CTFrace.html
+  src: 0X01.5
+
+- name: XCTF实训平台
+  url: https://adworld.xctf.org.cn/
+  src: 0X01.5
+
+- name: Team Spirit
+  url: http://www.spirit.org.cn
+  src: 0X01.5
+
+- name: ctf题目——各种CTF材料
+  url: https://www.shentoushi.top/index.php/Go/?url=http://captf.com&LinkId=680
+  src: 0X01.5
+
+- name: CTF Rank——你的CTF参赛指南
+  url: url=https://ctfrank.org
+  src: 0X01.5
+
+- name: XCTF对抗赛——国际网络安全技术对抗赛
+  url: https://bctf.cn/
+  src: 0X01.5
+
+- name: OverTheWire:Wargames
+  url: https://overthewire.org/wargames/
+  src: 0X01.5
+
+- name: prompt(1)——xss挑战赛
+  url: http://prompt.ml/0
+  src: 0X01.5
+
+- name: CTF Writeup Summary
+  url: http://sec.yka.me/index
+  src: 0X01.5
+
+- name: reversing.kr——破解和反向代码工程的能力
+  url: http://reversing.kr/
+  src: 0X01.5
+
+- name: About WeChall
+  url: http://www.wechall.net/
+  src: 0X01.5
+
+- name: RedTiger的黑客
+  url: http://redtiger.labs.overthewire.org/
+  src: 0X01.5
+
+- name: CTF-All-In-One-CTF 从入门到放弃
+  url: https://www.gitbook.com/book/firmianay/ctf-all-in-one/details
+  src: 0X01.5
+
+- name: CTF Tools
+  url: https://ctf-wiki.github.io/ctf-tools/
+  src: 0X01.5
+
+- name: CG-CTF
+  url: https://cgctf.nuptsast.com/login
+  src: 0X01.5
+
+- name: CTFLearn | CTF Practice | Problems
+  url: https://ctflearn.com/
+  src: 0X01.5
+
+- name: CTF在线工具-CTF编码、CTF算法
+  url: http://ctf.ssleye.com/
+  src: 0X01.5
+
+- name: Sec-News 安全文摘
+  url: http://wiki.ioin.in/
+  src: 0X01.6
+
+- name: NaviSec.it 网络安全博客
+  url: https://bowen.navisec.it/
+  src: 0X01.6
+
+- name: 信安之路——分享信息安全技术学习的平台
+  url: https://mp.weixin.qq.com/s/Kp7X0Fac-wfWTqeXJG8Jxw
+  src: 0X01.6
+
+- name: CHYbeta——Web-Security-Learning
+  url: https://github.com/CHYbeta/Web-Security-Learning
+  src: 0X01.6
+
+- name: CHYbeta——Software-Security-Learning
+  url: https://github.com/CHYbeta/Software-Security-Learning
+  src: 0X01.6
+
+- name: Tuisec安全热点
+  url: https://paper.tuisec.win/
+  src: 0X01.6
+
+- name: iOS应用逆向工程资料汇总
+  url: http://www.qingpingshan.com/m/view.php?aid=385263
+  src: 0X01.6
+
+- name: Code-Audit-Challenges-代码审计
+  url: https://github.com/CHYbeta/Code-Audit-Challenges
+  src: 0X01.6
+
+- name: 优质安全文章收藏长期更新
+  url: https://github.com/tom0li/collection-document
+  src: 0X01.6
+
+- name: TI-start.me——资源导航集合
+  url: https://start.me/p/rxRbpo/ti
+  src: 0X01.6
+
+- name: Bug奖励文章列表
+  url: https://pentester.land/list-of-bug-bounty-writeups.html
+  src: 0X01.6
+
+- name: 码云——开源中国代码托管平台
+  url: https://gitee.com/
+  src: 0X01.7
+
+- name: Coding——面向开发者的云端开发托管平台
+  url: https://coding.net/
+  src: 0X01.7
+
+- name: Sourceforge——开放源代码软件开发平台和仓库
+  url: https://sourceforge.net/
+  src: 0X01.7
+
+- name: Bitbucket——采用Mercurial和Git的分布式版本控制
+  url: https://bitbucket.org/
+  src: 0X01.7
+
+- name: gitlab——免费无限制的开源及私有项目托管
+  url: https://about.gitlab.com/
+  src: 0X01.7
+
+- name: Github——全球知名的开源及私有项目托管平台
+  url: https://github.com/
+  src: 0X01.7
+
+- name: CODE——CSDN代码托管平台 
+  url: https://code.csdn.net
+  src: 0X01.7
+
+- name: Kelude——阿里云代码托管平台
+  url: https://code.aliyun.com
+  src: 0X01.7
 
 
