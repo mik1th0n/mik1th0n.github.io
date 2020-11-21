@@ -62,6 +62,181 @@
   url: https://start.me/p/X20Apn
   src: 0X00.0
   
-- name: 呓城之城
-  url: http://yicheng.zdyrs.com/
+- name: CVE漏洞——Common Vulnerabilities and Exposu
+  url: http://cve.mitre.org/
   src: 0X00.1
+
+- name: CVE Details——CVE security vulnerability database
+  url: https://www.cvedetails.com/
+  src: 0X00.1
+
+- name: Exploit-DB
+  url: https://www.exploit-db.com/
+  src: 0X00.1
+
+- name: Routerpwn——路由器漏洞库
+  url: http://routerpwn.com/
+  src: 0X00.1
+
+- name: 0day.today 1337day Inj3ct0r 漏洞
+  url: http://cn.0day.today
+  src: 0X00.1
+
+- name: CXSECURITY
+  url: http://cxsecurity.com
+  src: 0X00.1
+
+- name: The Avengers
+  url: http://www.the-avengers.org/
+  src: 0X00.1
+
+- name: Zero Day Initiative
+  url: https://www.zerodayinitiative.com/advisories/published/
+  src: 0X00.1
+
+- name: Alerts | US-CERT
+  url: https://www.us-cert.gov/ncas/alerts
+  src: 0X00.1
+
+- name: NVD - Home
+  url: https://nvd.nist.gov
+  src: 0X00.1
+
+- name: SecuriTeam.com - A Free Accurate and 
+  url: http://www.securiteam.com
+  src: 0X00.1
+
+- name: OVAL-Open Vulnerability and Assessment 
+  url: http://oval.mitre.org/
+  src: 0X00.1
+
+- name: Security Database
+  url: http://www.security-database.com
+  src: 0X00.1
+
+- name: Securityfocus
+  url: http://www.securityfocus.com
+  src: 0X00.1
+
+- name: hyp3rlinx
+  url: http://hyp3rlinx.altervista.org/
+  src: 0X00.1
+
+- name: JVN iPedia
+  url: http://jvndb.jvn.jp/en
+  src: 0X00.1
+
+- name: Full Disclosure Mailing List
+  url: http://seclists.org/fulldisclosure
+  src: 0X00.1
+
+- name: jetlib.sec
+  url: http://sec.jetlib.com
+  src: 0X00.1
+
+- name: Уязвимости|securitylab.ru
+  url: http://www.securitylab.ru/vulnerability
+  src: 0X00.1
+
+- name: XSSed | Cross Site Scripting (XSS) at
+  url: http://xssed.com
+  src: 0X00.1
+
+- name: Microsoft 安全公告
+  url: https://docs.microsoft.com/zh-cn/security-updates/
+  src: 0X00.1
+
+- name: VULNERABILITY LAB - SECURITY VU
+  url: https://www.vulnerability-lab.com
+  src: 0X00.1
+
+- name: Bugtraq Mailing List
+  url: http://seclists.org/bugtraq
+  src: 0X00.1
+
+- name: Vulnerability Exploit Database | Rapid7
+  url: https://www.rapid7.com/db
+  src: 0X00.1
+
+- name: Shodan Exploits
+  url: https://exploits.shodan.io/welcome
+  src: 0X00.1
+
+- name: Packet Storm
+  url: https://packetstormsecurity.com
+  src: 0X00.1
+
+- name: Seebug漏洞平台
+  url: https://www.seebug.org
+  src: 0X00.2
+
+- name: BugScan漏洞
+  url: http://www.bugscan.net/source/template/vulns
+  src: 0X00.2
+
+- name: CNVD漏洞平台——国家信息安全漏洞共享平台
+  url: https://www.cnvd.org.cn/
+  src: 0X00.2
+
+- name: 国家信息安全漏洞库
+  url: http://www.cnnvd.org.cn/
+  src: 0X00.2
+
+- name: SCAP中文漏洞信息库——信息安全漏洞门户VULHUB
+  url: http://cve.scap.org.cn/
+  src: 0X00.2
+
+- name: 绿盟漏洞库
+  url: http://www.nsfocus.net/index.php?act=sec_bug
+  src: 0X00.2
+
+- name: 漏洞时代
+  url: http://0day5.com/
+  src: 0X00.2
+
+- name: 漏洞银行 | 0daybank
+  url: https://www.0daybank.org/
+  src: 0X00.2
+
+- name: 最新漏洞-非安全Exploit
+  url: https://www.sitedirsec.com/
+  src: 0X00.2
+
+- name: 教育行业安全漏洞信息平台
+  url: https://src.sjtu.edu.cn/
+  src: 0X00.2
+
+- name: 教育行业漏洞报告平台
+  url: https://src.sjtu.edu.cn/list/
+  src: 0X00.2
+
+- name: 乌云公开搜索|www.madebug.net
+  url: https://www.madebug.net/
+  src: 0X00.2
+
+- name: 工控系统行业漏洞库平台
+  url: http://ivd.winicssec.com/
+  src: 0X00.2
+
+- name: exp库——打造中文最大exploit库
+  url: http://www.expku.com/
+  src: 0X00.2
+
+- name: BYSEC.IO——Guardians of Blockchain Security
+  url: https://bysec.io
+  src: 0X00.2
+
+- name: DVPNET——去中心化区块链漏洞平台
+  url: https://dvpnet.io/
+  src: 0X00.2
+
+- name: 数字观星POC——POC++奖励平台
+  url: https://poc.shuziguanxing.com/#/
+  src: 0X00.2
+
+
+
+
+
+
+
