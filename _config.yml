@@ -57,13 +57,13 @@ navs:
     href: /categories/
     label: 分类
 
-#   -
-#     href: /archives/
-#     label: 归档
+   -
+     href: /archives/
+     label: 归档
 
-#   -
-#     href: /open-source/
-#     label: 开源
+   -
+     href: /open-source/
+     label: 开源
 
   -
     href: /wiki/
@@ -120,17 +120,17 @@ disqus:
     username: 
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: 
+    owner: mik1th0n
     repo: blog-comments
     oauth:
-        client_id: 
-        client_secret: 
+        client_id: 46b676aeb5a2b2403551
+        client_secret: 3f49d9a60566479fc2ba4136e2a2a01a86fa12b6
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: 
+    owner: mik1th0n
     repo: blog-comments
-    clientID: 
-    clientSecret: 
+    clientID: 46b676aeb5a2b2403551
+    clientSecret: 3f49d9a60566479fc2ba4136e2a2a01a86fa12b6
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
