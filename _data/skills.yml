@@ -1,19 +1,84 @@
-- name: Software Engineer Keywords
+- name: 安全人员基本技能
   keywords:
-      - Java
-      - C++
-      - Python
-      - Design Patterns
+      - 时间
+      - 翻墙
+      - 同步
+      - 行业
 
-- name: Mobile Developer Keywords
+- name: Web安全工程师
   keywords:
-      - Android
-      - Reverse Engineering
+      - 渗透
+      - 攻防
+      - 编程
+      - 挖掘
 
-- name: Windows Developer Keywords
+- name: Web安全研发工程师
   keywords:
-      - Win32 SDK
-      - DuiLib
-      - WTL
-      - COM
-      - WinDbg
+      - 系统
+      - 开发
+      - 业务
+      - 调试
+
+- name: 安全运维工程师
+  keywords:
+      - 应急
+      - 加固
+      - 培训
+      - 产品    
+
+- name: 安全测试工程师
+  keywords:
+      - 测试
+      - 培训
+      - 审计
+      - 文档
+
+- name: Windows逆向工程师
+  keywords:
+      - 漏洞
+      - 病毒
+      - 调试
+      - 挖掘
+
+- name: 系统研发工程师
+  keywords:
+      - 系统
+      - 底层
+      - 开发
+      - 优化
+
+- name: Android安全工程师
+  keywords:
+      - 移动
+      - 测试
+      - 应急
+      - 研究
+
+- name: 风控安全工程师
+  keywords:
+      - 风控
+      - 检测
+      - 防御
+      - 开发
+
+- name: 安全产品运营员
+  keywords:
+      - 产品
+      - 宣传
+      - 统计
+      - 优化
+
+- name: 安全服务工程师
+  keywords:
+      - 实施
+      - 渗透
+      - 审计
+      - 规范
+
+- name: 售前工程师
+  keywords:
+      - 售前
+      - 招标
+      - 培训
+      - 应急
+
