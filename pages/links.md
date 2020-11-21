@@ -22,7 +22,7 @@ permalink: /links/
 {% endfor %}
 </ul>
 
-## 知识学习
+## 0X01 知识学习
 
 <ul>
 {% for link in site.data.links %}
