@@ -142,6 +142,7 @@ keywords: Port
 |	TCP	|	1023	|	Worm.Sasser.e	|
 
 ### 0X01  TCP 端口（动态端口）
+
 |	端口类型	|	端口号	|	注释	|
 |---|---|---|
 |	TCP	|	1024	|	NetSpy.698(YAI)	|
@@ -543,6 +544,7 @@ keywords: Port
 |	TCP	|	65535	|	RC,Adore Worm/Linux	|
 
 ### 0X03  UDP 端口（静态端口）
+
 |	端口类型	|	端口号	|	注释	|
 |---|---|---|
 |	UDP	|	1	|	Sockets des Troie	|
@@ -556,6 +558,7 @@ keywords: Port
 |	UDP	|	520	|	Rip	|
 
 ### 0X04  UDP 端口（动态端口）
+
 |	端口类型	|	端口号	|	注释	|
 |---|---|---|
 |	UDP	|	1025	|	Maverick’s Matrix 1.2 - 2.0	|
