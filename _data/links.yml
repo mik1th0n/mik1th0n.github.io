@@ -1,7 +1,67 @@
-- name: 码志
-  url: http://mazhuang.org
+- name: 洞见微信聚合
+  url: http://wechat.doonsec.com/
   src: 0X00.0
 
+- name: FreeBuf——关注黑客与极客
+  url: https://www.freebuf.com/
+  src: 0X00.0
+  
+- name: 安全脉搏——分享技术，悦享品质
+  url: https://www.secpulse.com/
+  src: 0X00.0
+  
+- name: 安全客——有思想的安全新媒体
+  url: https://www.anquanke.com/
+  src: 0X00.0
+  
+- name: Sec-News——安全文摘
+  url: http://wiki.ioin.in/
+  src: 0X00.0
+  
+- name: Navisec安全博文
+  url: https://bowen.navisec.it/
+  src: 0X00.0
+
+- name: Seebug_Paper——专注分享精品文章
+  url: https://paper.seebug.org/
+  src: 0X00.0
+  
+- name: SecWiki-安全维基,汇集国内外优秀安全资讯、工具和网站
+  url: https://www.sec-wiki.com/
+  src: 0X00.0
+  
+- name: 土司论坛T00LS——低调求发展
+  url: https://www.t00ls.net/
+  src: 0X00.0
+  
+- name: Shodan搜索引擎
+  url: https://www.shodan.io/
+  src: 0X00.0
+  
+- name: 微步在线——威胁情报分析平台
+  url: https://x.threatbook.cn/
+  src: 0X00.0
+  
+- name: TI-start.me——资源导航集合
+  url: https://start.me/p/rxRbpo/ti
+  src: 0X00.0
+  
+- name: 先知安全技术社区
+  url: https://xz.aliyun.com/
+  src: 0X00.0
+  
+- name: Exploit-DB
+  url: https://www.exploit-db.com/
+  src: 0X00.0
+  
+- name: Hacking8推送——安全信息流
+  url: https://i.hacking8.com/
+  src: 0X00.0
+  
+- name: 听风者情报源
+  url: https://start.me/p/X20Apn
+  src: 0X00.0
+  
 - name: 呓城之城
   url: http://yicheng.zdyrs.com/
   src: 0X00.1
