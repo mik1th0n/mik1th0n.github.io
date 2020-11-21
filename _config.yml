@@ -4,10 +4,10 @@
 baseurl:
 url: https://mik1th0n.github.io/
 date_format: "ordinal"
-title: mik1th0n
+title: mik1th0n's Blog
 subtitle: "公众号：mik1th0n"
 description: "mik1th0n的个人博客，公众号：mik1th0n"
-keywords: mik1th0n
+keywords: mik1th0n,blog
 timezone: Asia/Sichuan
 encoding: "utf-8"
 side_bar_repo_limit: 5
