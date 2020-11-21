@@ -8,9 +8,9 @@ menu: 链接
 permalink: /links/
 ---
 
-> 网络安全从业者安全导航
+# 网络安全从业者安全导航
 
-# 漏洞平台
+## 漏洞平台
 
 <ul>
 {% for link in site.data.links %}
@@ -20,7 +20,7 @@ permalink: /links/
 {% endfor %}
 </ul>
 
-# 知识学习
+## 知识学习
 
 <ul>
 {% for link in site.data.links %}
