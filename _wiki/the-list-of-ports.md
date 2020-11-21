@@ -6,6 +6,10 @@ description: 常见端口大全介绍。
 keywords: Port
 ---
 
+> 计算机系统TCP/UDP的端口大全介绍
+
+
+
 ### 0X00  TCP 端口（静态端口）	
 
 |	端口类型	|	端口号	|	注释	|
