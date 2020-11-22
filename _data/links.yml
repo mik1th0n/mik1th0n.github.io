@@ -2577,3 +2577,39 @@
 - name: Weakpass爆破字典
   url: https://weakpass.com/
   src: 0X05.2
+
+- name: 智联招聘——权威的求职找工作平台
+  url: https://www.zhaopin.com/
+  src: 0X06.0
+
+- name: 前程无忧——专业人才招聘网站
+  url: https://www.51job.com/
+  src: 0X06.0
+
+- name: 58同城——生活分类信息网站
+  url: https://58.com/
+  src: 0X06.0
+
+- name: 猎聘——精英职业发展平台
+  url: https://www.liepin.com/
+  src: 0X06.0
+
+- name: 拉勾——专注互联网职业招聘平台
+  url: https://www.lagou.com/
+  src: 0X06.0
+
+- name: 大街——年轻人专属社交招聘平台
+  url: https://www.dajie.com/
+  src: 0X06.0
+
+- name: Linkedin——全球领先的职业社交网站
+  url: https://www.linkedin.com/
+  src: 0X06.0
+
+- name: 226safe人才招聘
+  url: https://job.226safe.com/
+  src: 0X06.1
+
+- name: 招聘 - FreeBuf 互联网安全新媒体平台
+  url: https://job.freebuf.com/
+  src: 0X06.1
