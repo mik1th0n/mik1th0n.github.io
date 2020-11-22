@@ -3,7 +3,7 @@ layout: wiki
 title: 端口大全列表
 categories: Port
 description: 常见端口大全介绍。
-keywords: Port
+keywords: Port,端口
 ---
 
 > 计算机系统TCP/UDP的端口大全介绍
