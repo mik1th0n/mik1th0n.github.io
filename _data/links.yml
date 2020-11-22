@@ -2426,7 +2426,154 @@
   url: https://www.blackmoreops.com/
   src: 0X04.2
 
-- name: 
-  url: 
+- name: metasploit-官网——开源的安全漏洞检测工具
+  url: https://www.metasploit.com/
   src: 0X05.0
 
+- name: nmap-官网——Linux下的网络扫描和嗅探工具包
+  url: https://nmap.org/
+  src: 0X05.0
+
+- name: sqlmap-官网——自动化的SQL注入工具
+  url: http://sqlmap.org/
+  src: 0X05.0
+
+- name: burpsuite-官网——攻击web 应用程序的集成平台
+  url: https://portswigger.net
+  src: 0X05.0
+
+- name: wireshark-官网——网络封包分析软件
+  url: https://www.wireshark.org/
+  src: 0X05.0
+
+- name: fiddler-官网——http协议调试代理工具
+  url: http://www.telerik.com/fiddler
+  src: 0X05.0
+
+- name: AppScan-官网——web安全扫描工具
+  url: https://www.ibm.com/cn-zh/products/trials
+  src: 0X05.0
+
+- name: Nessus-官网——系统漏洞扫描与分析软件
+  url: https://www.tenable.com/products/nessus/nessus-professional
+  src: 0X05.0
+
+- name: Nexpose-官网——性能极佳的漏洞扫描工具
+  url: https://www.rapid7.com/products/nexpose/download
+  src: 0X05.0
+
+- name: appspider-官网——扫描网页和移动应用程序的漏洞
+  url: https://www.rapid7.com/products/appspider/download/
+  src: 0X05.0
+
+- name: Web扫描器功能比较——The Prices vs. Features of Web Applicati
+  url: http://sectoolmarket.com
+  src: 0X05.0
+
+- name: CyberPunk——Open Source CyberSecurit
+  url: https://cyberpunk.xyz/
+  src: 0X05.0
+
+- name: THC-hydra——支持多种网络服务的网络登陆破解工具
+  url: https://github.com/vanhauser-thc/thc-hydra
+  src: 0X05.0
+
+- name: SecTools.Org——扫描器和工具大全
+  url: http://sectools.org
+  src: 0X05.0
+
+- name: PentestBox渗透利器
+  url: https://pentestbox.org/zh/
+  src: 0X05.0
+
+- name: Sunny-Ngrok内网转发
+  url: https://www.ngrok.cc/
+  src: 0X05.0
+
+- name: Ettercap-官网——Linux下一个强大的欺骗工具
+  url: https://ettercap.github.io/ettercap
+  src: 0X05.0
+
+- name: John-官网——快速的密码破解程序
+  url: http://www.openwall.com/john
+  src: 0X05.0
+
+- name: Aircrack-ng官网——802.11标准的无线网络分析有关的安全
+  url: http://www.aircrack-ng.org
+  src: 0X05.0
+
+- name: 常见漏洞扫描器测试平台
+  url: http://demo.aisec.cn/
+  src: 0X05.0
+
+- name: FRP内网穿透工具
+  url: https://diannaobos.com/frp/
+  src: 0X05.0
+
+- name: Charles抓包工具
+  url: https://www.charlesproxy.com/
+  src: 0X05.0
+
+- name: Sploitus | Exploit & Hacktool Search Engin
+  url: https://sploitus.com/
+  src: 0X05.0
+
+- name: CTF资源库——CTF资源库|CTF工具下载|CTF工具包|
+  url: https://www.ctftools.com/down/
+  src: 0X05.1
+
+- name: 看雪工具——工欲善其事必先利其器
+  url: https://www.kanxue.com/
+  src: 0X05.1
+
+- name: 逆向工程资源
+  url: https://tuts4you.com/download.php
+  src: 0X05.1
+
+- name: SOMD5搜集的字典
+  url: https://www.somd5.com/download/dict/
+  src: 0X05.1
+
+- name: 爱盘--在线破解工具包
+  url: https://down.52pojie.cn/
+  src: 0X05.1
+
+- name: TOOLS|Python工具库
+  url: https://www.t00ls.net/pytools.html
+  src: 0X05.2
+
+- name: Github|猪猪侠
+  url: https://github.com/ring04h
+  src: 0X05.2
+
+- name: xss自动检测工具
+  url: https://github.com/bsmali4/xssfork
+  src: 0X05.2
+
+- name: SecLists安全字典
+  url: https://github.com/danielmiessler/SecLists
+  src: 0X05.2
+
+- name: Scanners-Box
+  url: https://github.com/We5ter/Scanners-Box
+  src: 0X05.2
+
+- name: Pentest-tools|大牛的各种脚本集合
+  url: https://github.com/Ridter/Pentest
+  src: 0X05.2
+
+- name: 安全开源项目wiki
+  url: http://wiki.beysec.com/
+  src: 0X05.2
+
+- name: webshell大合集
+  url: http://331f7025.wiz03.com/share/s/0P7T0B3aIk9b2HzaQx2n1dgc3jwaxF1ljQMH2-47va3sEPiP
+  src: 0X05.2
+
+- name: onlinetools线上工具箱
+  url: https://github.com/iceyhexman/onlinetools
+  src: 0X05.2
+
+- name: Weakpass爆破字典
+  url: https://weakpass.com/
+  src: 0X05.2
