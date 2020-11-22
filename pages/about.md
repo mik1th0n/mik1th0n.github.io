@@ -19,7 +19,7 @@ permalink: /about/
 {% if site.url contains 'mik1th0n.github.io' %}
 <li>
 微信公众号：<br />
-<img style="height:192px;width:192px;border:1px solid lightgrey;" src="{{ assets_base_url }}/assets/images/mikithon.jpg" alt="mik1th0n" />
+<img style="height:192px;width:192px;border:1px solid lightgrey;" src="{{ assets_base_url }}/assets/images/qrcode.jpg" alt="mik1th0n" />
 </li>
 {% endif %}
 </ul>
