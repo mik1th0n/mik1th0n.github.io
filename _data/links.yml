@@ -2366,7 +2366,67 @@
   url: http://www.nagain.com/
   src: 0X03.9
 
+- name: Exploit.IN Forum
+  url: https://forum.exploit.in
+  src: 0X04.0
+
+- name: Carding Forum - Carding - Credit Cards
+  url: http://www.cardmafia.ws
+  src: 0X04.0
+
+- name: Hack Forums
+  url: https://hackforums.net/index.php
+  src: 0X04.0
+
+- name: Форум АНТИЧАТ|安全在线社区
+  url: https://forum.antichat.ru
+  src: 0X04.0
+
+- name: 0x00sec | The Home of the Hacker黑客之家
+  url: https://0x00sec.org
+  src: 0X04.0
+
+- name: FuzzySecurity
+  url: http://www.fuzzysecurity.com
+  src: 0X04.0
+
+- name: EXETOOLS FORUM | Powered by vBulletin
+  url: https://forum.exetools.com/
+  src: 0X04.0
+
+- name: Tuts 4 You
+  url: https://forum.tuts4you.com
+  src: 0X04.0
+
+- name: Security Affairs - Read, think, share …
+  url: http://securityaffairs.co/wordpress/
+  src: 0X04.1
+
+- name: SecurityFocus
+  url: https://www.securityfocus.com/
+  src: 0X04.1
+
+- name: Exploit.IN
+  url: https://exploit.in
+  src: 0X04.1
+
+- name: HighOn.Coffee——渗透测试&&安全研究博客
+  url: https://highon.coffee/
+  src: 0X04.1
+
+- name: Hacking Articles
+  url: http://www.hackingarticles.in
+  src: 0X04.1
+
+- name: SecurityTube.net
+  url: http://www.securitytube.net/
+  src: 0X04.2
+
+- name: blackMORE Ops | Linux, InfoSec, Hacking - blackMORE Ops
+  url: https://www.blackmoreops.com/
+  src: 0X04.2
+
 - name: 
   url: 
-  src: 0X03.9
+  src: 0X05.0
 
