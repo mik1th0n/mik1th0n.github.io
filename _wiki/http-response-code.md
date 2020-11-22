@@ -8,7 +8,7 @@ keywords: HTTP,响应码,状态码
 
 ### 0X00 概览
 
-![image](http-response-code.assets/e767d54e89ac334721abaa25d706db0a.png)
+![image](../images/wiki/http-response-code-01.png)
 
 
 
