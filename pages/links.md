@@ -7,6 +7,15 @@ comments: true
 menu: 链接
 permalink: /links/
 ---
+## 0X0  常用
+
+<ul>
+{% for link in site.data.links %}
+  {% if link.src == '0X0' %}
+  <li><a href="{{ link.url }}" target="_blank">{{ link.name}}</a></li>
+  {% endif %}
+{% endfor %}
+</ul>
 
 ## 0X00 漏洞平台
 

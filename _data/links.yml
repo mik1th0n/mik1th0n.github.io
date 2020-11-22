@@ -1,3 +1,29 @@
+- name: 漏洞银行SKILLS
+  url: https://skills.bugbank.cn/
+  src: 0X0
+
+- name: 教父爱分享
+  url: https://www.jiaofutql.cn/
+  src: 0X0
+
+- name: CMD5在线解密
+  url: https://www.cmd5.com/
+  src: 0X0
+
+- name: MSDN
+  url: https://msdn.itellyou.cn/
+  src: 0X0
+
+- name: IP地址查询
+  url: https://ipchaxun.com/
+  src: 0X0
+
+- name: IP地址查询——手机号码查询
+  url: https://ipchaxun.com/
+  src: 0X0
+
+
+
 - name: 洞见微信聚合
   url: http://wechat.doonsec.com/
   src: 0X00.0
