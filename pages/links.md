@@ -12,7 +12,7 @@ permalink: /links/
 
 <ul>
 {% for link in site.data.links %}
-  {% if link.src == '0X0' %}
+  {% if link.src == '0X0.0' %}
   <li><a href="{{ link.url }}" target="_blank">{{ link.name}}</a></li>
   {% endif %}
 {% endfor %}
