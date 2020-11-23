@@ -8,7 +8,7 @@ menu: 链接
 permalink: /links/
 ---
 
-## 0X0  常用
+## 0X0 常用
 
 <ul>
 {% for link in site.data.links %}
