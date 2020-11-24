@@ -6,9 +6,9 @@ description: 由于默认安装的CentOS系统的OpenSSH和OpenSSL版本较低�
 keywords: CentOS7,OpenSSH,OpenSSL
 ---
 
-> 注意：此升级方案适用于CentOS 7的系统，且OpenSSH版本低于等于 7.4p1，才能升级到OpenSSH 8.4。
+> 注意：此升级方案适用于CentOS 7的系统，且OpenSSH版本低于等于 7.4p1，才能升级到OpenSSH 8.1p1。
 
-## 0x0 CentOS 7升级OpenSSH 8.47p1和OpenSSL 1.0.2s
+## 0x0 CentOS 7升级OpenSSH 8.1p1和OpenSSL 1.0.2s
 
 ### 0x00 升级准备
 
