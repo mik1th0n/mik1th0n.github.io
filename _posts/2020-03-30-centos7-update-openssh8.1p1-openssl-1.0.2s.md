@@ -132,7 +132,7 @@ tcp6     0       0  :::23         :::*           LISTEN        1/systemd
 [root@001 1.telent]# vi /etc/pam.d/login
 ```
 
-![0X01.5-1](/images/posts/2020-03-30-centos7-update-openssh8.1p1-openssl-1.0.2s.assets/0x01.5-1.png)
+![0X01.5-1](/images/posts/2020-03-30-centos7-update-openssh8.1p1-openssl-1.0.2s.assets/0X01.5-1.png)
 
 #### 0x01.6  编辑配置文件
 
@@ -140,11 +140,11 @@ tcp6     0       0  :::23         :::*           LISTEN        1/systemd
 [root@001 1.telent]# vi /etc/pam.d/remote
 ```
 
-![0X01.6-1](/images/posts/2020-03-30-centos7-update-openssh8.1p1-openssl-1.0.2s.assets/0x01.6-1.png)
+![0X01.6-1](/images/posts/2020-03-30-centos7-update-openssh8.1p1-openssl-1.0.2s.assets/0X01.6-1.png)
 
 #### 0x01.7 测试
 
-![0X01.7-1](/images/posts/2020-03-30-centos7-update-openssh8.1p1-openssl-1.0.2s.assets/0x01.7-1.png)
+![0X01.7-1](/images/posts/2020-03-30-centos7-update-openssh8.1p1-openssl-1.0.2s.assets/0X01.7-1.png)
 
 ### 0x02  安装gcc-g++编译器
 
