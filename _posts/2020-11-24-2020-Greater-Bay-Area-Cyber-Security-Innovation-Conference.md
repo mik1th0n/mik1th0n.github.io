@@ -27,6 +27,8 @@ keywords: 网络安全大会
 
 - [大会直播](https://yszlive.sztv.com.cn/watch/53622?source=mobile)
 
-### 0x03  大会微信公众号
+### 0x03  湾区创见——微信公众号
+
+- 以上内容来自于以下微信公众号
 
 ![2020-Greater-Bay-Area-Cyber-Security-Innovation-Conference](/images/blog/2020-11-24-2020-Greater-Bay-Area-Cyber-Security-Innovation-Conference.assets/weixin.png)
