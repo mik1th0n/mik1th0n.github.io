@@ -169,7 +169,7 @@ y
 [ root@ 001 openssh-8.4p1]#/etc/init.d/sshd restart 
 Restarting sshd (via systemct1): Warning: sshd.service changed on disk. Run "systemctl daemon-reload' to reload units.
                                                       [  0K  ]
-[ root@ 001 openssh-8.4p1]# systemctl daemon-reload
+[root@001 openssh-8.4p1]# systemctl daemon-reload
 [root@001 openssh-8.4p1]# systemctl status sshd
 sshd. service - SYSV: OpenSSH server daemon 
   Loaded: loaded(/etc/rc.d/init.d/sshd; bad; vendor preset: enabled)
