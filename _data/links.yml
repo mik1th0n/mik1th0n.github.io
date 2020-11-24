@@ -22,6 +22,47 @@
   url: https://ipchaxun.com/
   src: 0X0.0
 
+- name: IP反查域名
+  url: https://dns.aizhan.com/
+  src: 0X0.0
+
+- name: 在线CMS指纹识别
+  url: http://whatweb.bugscaner.com/look/
+  src: 0X0.0
+
+- name: 站长工具——站长之家
+  url: http://tool.chinaz.com/
+  src: 0X0.0
+
+- name: DNS在线查询工具
+  url: https://www.ping.cn/dns/
+  src: 0X0.0
+
+- name: IP反查域名
+  url: http://ip.aa2.cn/ip/
+  src: 0X0.0
+
+- name: 网站流量排行
+  url: http://www.alexa.cn/
+  src: 0X0.0
+
+- name: 爱站工具
+  url: https://www.aizhan.com/
+  src: 0X0.0
+
+- name: 
+  url: 
+  src: 0X0.0
+
+- name: 
+  url: 
+  src: 0X0.0
+
+
+
+
+
+
 - name: 洞见微信聚合
   url: http://wechat.doonsec.com/
   src: 0X00.0
