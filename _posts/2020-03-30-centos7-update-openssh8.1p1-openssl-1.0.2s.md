@@ -132,7 +132,7 @@ tcp6     0       0  :::23         :::*           LISTEN        1/systemd
 [root@001 1.telent]# vi /etc/pam.d/login
 ```
 
-![0X01.5-1](images/posts/2020-03-30-centos7-update-openssh8.1p1-openssl-1.0.2s.assets/0x01.5-1.png)
+![0X01.5-1](/images/posts/2020-03-30-centos7-update-openssh8.1p1-openssl-1.0.2s.assets/0x01.5-1.png)
 
 #### 0x01.6  编辑配置文件
 
@@ -140,11 +140,11 @@ tcp6     0       0  :::23         :::*           LISTEN        1/systemd
 [root@001 1.telent]# vi /etc/pam.d/remote
 ```
 
-![0X01.6-1](images/posts/2020-03-30-centos7-update-openssh8.1p1-openssl-1.0.2s.assets/0x01.6-1.png)
+![0X01.6-1](/images/posts/2020-03-30-centos7-update-openssh8.1p1-openssl-1.0.2s.assets/0x01.6-1.png)
 
 #### 0x01.7 测试
 
-![0X01.7-1](images/posts/2020-03-30-centos7-update-openssh8.1p1-openssl-1.0.2s.assets/0x01.7-1.png)
+![0X01.7-1](/images/posts/2020-03-30-centos7-update-openssh8.1p1-openssl-1.0.2s.assets/0x01.7-1.png)
 
 ### 0x02  安装gcc-g++编译器
 
@@ -373,9 +373,9 @@ openssh-8.1p1 openssh-8.1p1.tar.gz openssl-1.0.2s openssL-1.0.2s.tar.gz
 [root@001 openssh-8.1p1]# vi /etc/ssh/sshd_config
 ```
 
-![0x05.7-1](images/posts/2020-03-30-centos7-update-openssh8.1p1-openssl-1.0.2s.assets/0x05.7-1.png)
+![0x05.7-1](/images/posts/2020-03-30-centos7-update-openssh8.1p1-openssl-1.0.2s.assets/0x05.7-1.png)
 
-![0x05.7-2](images/posts/2020-03-30-centos7-update-openssh8.1p1-openssl-1.0.2s.assets/0x05.7-2.png)
+![0x05.7-2](/images/posts/2020-03-30-centos7-update-openssh8.1p1-openssl-1.0.2s.assets/0x05.7-2.png)
 
 - **最终为如下内容，其他的不要动**
 
