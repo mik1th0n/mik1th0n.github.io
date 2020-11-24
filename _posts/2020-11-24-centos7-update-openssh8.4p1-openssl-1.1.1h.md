@@ -22,13 +22,13 @@ keywords: CentOS7,OpenSSH,OpenSSL
 #### 0x00.1  启动telnet
 
 ```shell
-[root@xzagzx001 ~]# systemctl enable xinetd
+[root@001 ~]# systemctl enable xinetd
 Created symlink from /etc/systemd/system/multi-user.target.wants/xinetd.service to /usr/lib/systemd/system/xinetd.service.
-[root@xzagzx001 ~]# systemctl enable telnet.socket
+[root@001 ~]# systemctl enable telnet.socket
 Created symlink from /etc/systemd/system/sockets.target.wants/telnet.socket to /usr/lib/systemd/system/telnet.socket.
-[root@xzagzx001 ~]# systemctl start telnet.socket
-[root@xzagzx001 ~]# systemctl start xinetd
-[root@xzagzx001 ~]# netstat -lntp|grep 23
+[root@001 ~]# systemctl start telnet.socket
+[root@001 ~]# systemctl start xinetd
+[root@001 ~]# netstat -lntp|grep 23
 ```
 
 #### 0x00.2  测试telnet
@@ -57,10 +57,10 @@ openssh-8.4p1.tar.gz  openssl-1.1.1h.tar.gz  zlib-1.2.11.tar.gz
 #### 0x00.2  解压升级包
 
 ```shell
-[root@xzagzx001 ~]# tar xf openssh-8.4p1.tar.gz -C /usr/local/src/
-[root@xzagzx001 ~]# tar xf openssl-1.1.1h.tar.gz -C /usr/local/src/
-[root@xzagzx001 ~]# tar xf zlib-1.2.11.tar.gz -C /usr/local/src/
-[root@xzagzx001 ~]# ll /usr/local/src/
+[root@001 ~]# tar xf openssh-8.4p1.tar.gz -C /usr/local/src/
+[root@001 ~]# tar xf openssl-1.1.1h.tar.gz -C /usr/local/src/
+[root@001 ~]# tar xf zlib-1.2.11.tar.gz -C /usr/local/src/
+[root@001 ~]# ll /usr/local/src/
 total 24
 drwxr-xr-x.5 root root 68 Nov 23 16:42.
 drwxr-xr-x.20 root root 267 Jul 20 16:04..
@@ -79,21 +79,21 @@ drwxr-xr-x 14 501 qames 4096 Jan 16 2017 zlib-1.2.11
 #### 0x01.0  安装zlib-1.2.11.tar.gz
 
 ```shell
-[root@xzagzx001 ~]# cd /usr/local/src/zlib-1.2.11/
-[root@xzagzx001 zlib-1.2.11]# ./configure --prefix=/usr/local/zlib && make -j 4 && make install
+[root@001 ~]# cd /usr/local/src/zlib-1.2.11/
+[root@001 zlib-1.2.11]# ./configure --prefix=/usr/local/zlib && make -j 4 && make install
 .
 .
 .
 chmod 644/usr/Local/zlib/include/zlib.h /usr/local/zlib/include/zconf.h
-[root@xzagzx001 zlib-1.2.11]# echo $?
+[root@001 zlib-1.2.11]# echo $?
 0
 ```
 
 #### 0x01.1  安装 openssl-1.1.1h.tar.gz
 
 ```shell
-[root@xzagzx001 zlib-1.2.11]# cd /usr/local/src/openssl-1.1.1h/
-[root@xzagzx001 openssl-1.1.1h]# ./config --prefix=/usr/local/ssl -d shared
+[root@001 zlib-1.2.11]# cd /usr/local/src/openssl-1.1.1h/
+[root@001 openssl-1.1.1h]# ./config --prefix=/usr/local/ssl -d shared
 .
 .
 .
@@ -109,68 +109,68 @@ chmod 644/usr/Local/zlib/include/zlib.h /usr/local/zlib/include/zconf.h
 ***    Troubleshootingsection in the INSTALL file first)           ***
 ***                                                                ***
 **********************************************************************
-[root@xzagzx001 openssl-1.1.1h]# make -j 4 && make install
+[root@001 openssl-1.1.1h]# make -j 4 && make install
 .
 .
 .
 /usr/Local/ssl/share/doc/openssl/html/man7/ssl.html
 /usr/local/ssl/share/doc/openssl/html/man7/x509.html
-[root@xzagzx001 openssl-1.1.1h]# echo $?
+[root@001 openssl-1.1.1h]# echo $?
 0
-[root@xzagzx001 openssl-1.1.1h]# echo '/usr/local/ssl/lib' >> /etc/ld.so.conf
-[root@xzagzx001 openssl-1.1.1h]# ldconfig -v
+[root@001 openssl-1.1.1h]# echo '/usr/local/ssl/lib' >> /etc/ld.so.conf
+[root@001 openssl-1.1.1h]# ldconfig -v
 ```
 
 #### 0x01.2  安装openssh-8.4p1.tar.gz
 
 ```shell
-[root@xzagzx001 openssl-1.1.1h]# mv /etc/ssh /etc/ssh.bak
-[root@xzagzx001 openssl-1.1.1h]# cd /usr/local/src/openssh-8.4p1/
-[root@xzagzx001 openssh-8.4p1]# ./configure --prefix=/usr/local/openssh --sysconfdir=/etc/ssh --with-ssl-dir=/usr/local/ssl --with-zlib=/usr/local/zlib
-[root@xzagzx001 openssh-8.4p1]# make -j 4 && make install
+[root@001 openssl-1.1.1h]# mv /etc/ssh /etc/ssh.bak
+[root@001 openssl-1.1.1h]# cd /usr/local/src/openssh-8.4p1/
+[root@001 openssh-8.4p1]# ./configure --prefix=/usr/local/openssh --sysconfdir=/etc/ssh --with-ssl-dir=/usr/local/ssl --with-zlib=/usr/local/zlib
+[root@001 openssh-8.4p1]# make -j 4 && make install
 .
 .
 .
 /usr/bin/mkdir -p /etc/ssh
 ssh-keygen: generating new host keys:RSA DSA ECDSA ED25519
 /usr/Local/openssh/sbin/sshd-t-f /etc/ssh/sshd_config
-[root@xzagzx001 openssh-8.4p1]# echo $?
+[root@001 openssh-8.4p1]# echo $?
 0
 
-[root@xzagzx001 openssh-8.4p1]# echo "X11Forwarding yes" >> /etc/ssh/sshd_config
-[root@xzagzx001 openssh-8.4p1]# echo "X11UseLocalhost no" >> /etc/ssh/sshd_config
-[root@xzagzx001 openssh-8.4p1]# echo "XAuthLocation /usr/bin/xauth" >> /etc/ssh/sshd_config
-[root@xzagzx001 openssh-8.4p1]# echo "UseDNS no" >> /etc/ssh/sshd_config
-[root@xzagzx001 openssh-8.4p1]# echo 'PermitRootLogin yes' >> /etc/ssh/sshd_config
-[root@xzagzx001 openssh-8.4p1]# echo 'PubkeyAuthentication yes' >> /etc/ssh/sshd_config
-[root@xzagzx001 openssh-8.4p1]# echo 'PasswordAuthentication yes' >> /etc/ssh/sshd_config
+[root@001 openssh-8.4p1]# echo "X11Forwarding yes" >> /etc/ssh/sshd_config
+[root@001 openssh-8.4p1]# echo "X11UseLocalhost no" >> /etc/ssh/sshd_config
+[root@001 openssh-8.4p1]# echo "XAuthLocation /usr/bin/xauth" >> /etc/ssh/sshd_config
+[root@001 openssh-8.4p1]# echo "UseDNS no" >> /etc/ssh/sshd_config
+[root@001 openssh-8.4p1]# echo 'PermitRootLogin yes' >> /etc/ssh/sshd_config
+[root@001 openssh-8.4p1]# echo 'PubkeyAuthentication yes' >> /etc/ssh/sshd_config
+[root@001 openssh-8.4p1]# echo 'PasswordAuthentication yes' >> /etc/ssh/sshd_config
 
-[root@xzagzx001 openssh-8.4p1]# mv /usr/sbin/sshd /usr/sbin/sshd.bak
-[root@xzagzx001 openssh-8.4p1]# cp -rf /usr/local/openssh/sbin/sshd /usr/sbin/sshd
-[root@xzagzx001 openssh-8.4p1]# mv /usr/bin/ssh /usr/bin/ssh.bak
-[root@xzagzx001 openssh-8.4p1]# cp -rf /usr/local/openssh/bin/ssh /usr/bin/ssh
-[root@xzagzx001 openssh-8.4p1]# mv /usr/bin/ssh-keygen /usr/bin/ssh-keygen.bak
-[root@xzagzx001 openssh-8.4p1]# cp -rf /usr/local/openssh/bin/ssh-keygen /usr/bin/ssh-keygen
+[root@001 openssh-8.4p1]# mv /usr/sbin/sshd /usr/sbin/sshd.bak
+[root@001 openssh-8.4p1]# cp -rf /usr/local/openssh/sbin/sshd /usr/sbin/sshd
+[root@001 openssh-8.4p1]# mv /usr/bin/ssh /usr/bin/ssh.bak
+[root@001 openssh-8.4p1]# cp -rf /usr/local/openssh/bin/ssh /usr/bin/ssh
+[root@001 openssh-8.4p1]# mv /usr/bin/ssh-keygen /usr/bin/ssh-keygen.bak
+[root@001 openssh-8.4p1]# cp -rf /usr/local/openssh/bin/ssh-keygen /usr/bin/ssh-keygen
 
-[root@xzagzx001 openssh-8.4p1]# ssh -V
+[root@001 openssh-8.4p1]# ssh -V
 0penSSH 8.4p1,0penSSL 1.1.1h 22 Sep 2020
 ```
 
 #### 0x01.3  启动sshd
 
 ```shell
-[root@xzagzx001 openssh-8.4p1]# systemctl start sshd
-[root@xzagzx001 openssh-8.4p1]# systemctl stop sshd.service
-[root@xzagzx001 openssh-8.4p1]# rm -rf /lib/systemd/system/sshd.service
-[root@xzagzx001 openssh-8.4p1]# systemctl daemon-reload
-[root@xzagzx001 openssh-8.4p1]# cp /usr/local/src/openssh-8.4p1/contrib/redhat/sshd.init /etc/init.d/sshd
+[root@001 openssh-8.4p1]# systemctl start sshd
+[root@001 openssh-8.4p1]# systemctl stop sshd.service
+[root@001 openssh-8.4p1]# rm -rf /lib/systemd/system/sshd.service
+[root@001 openssh-8.4p1]# systemctl daemon-reload
+[root@001 openssh-8.4p1]# cp /usr/local/src/openssh-8.4p1/contrib/redhat/sshd.init /etc/init.d/sshd
 y
-[root@xzagzx001 openssh-8.4p1]# /etc/init.d/sshd restart
-[ root@ xzagzx001 openssh-8.4p1]#/etc/init.d/sshd restart 
+[root@001 openssh-8.4p1]# /etc/init.d/sshd restart
+[ root@ 001 openssh-8.4p1]#/etc/init.d/sshd restart 
 Restarting sshd (via systemct1): Warning: sshd.service changed on disk. Run "systemctl daemon-reload' to reload units.
                                                       [  0K  ]
-[ root@ xzagzx001 openssh-8.4p1]# systemctl daemon-reload
-[root@xzagzx001 openssh-8.4p1]# systemctl status sshd
+[ root@ 001 openssh-8.4p1]# systemctl daemon-reload
+[root@001 openssh-8.4p1]# systemctl status sshd
 sshd. service - SYSV: OpenSSH server daemon 
   Loaded: loaded(/etc/rc.d/init.d/sshd; bad; vendor preset: enabled)
   Active: active (running) since Mon 2020-11-23 17:13:31 CST;39s ago 
@@ -181,22 +181,22 @@ Main PID:23169(sshd)
           |- 23169 sshd:/usr/sbin/sshd [ listener] 0 of 10-100 startups
           |- 23940 systemctl status sshd
           
-[root@xzagzx001 openssh-8.4p1]# /etc/init.d/sshd restart
-[root@xzagzx001 openssh-8.4p1]# systemctl status sshd
+[root@001 openssh-8.4p1]# /etc/init.d/sshd restart
+[root@001 openssh-8.4p1]# systemctl status sshd
 
-[root@xzagzx001 openssh-8.4p1]# chkconfig --add  sshd
-[root@xzagzx001 openssh-8.4p1]# chkconfig --list sshd
+[root@001 openssh-8.4p1]# chkconfig --add  sshd
+[root@001 openssh-8.4p1]# chkconfig --list sshd
 ```
 
 #### 0x01.4  关闭telnet
 
 ```shell
-[root@xzagzx001 ~]# systemctl disable xinetd.service
+[root@001 ~]# systemctl disable xinetd.service
 Removed symlink /etc/systemd/system/multi-user.target.wants/xinetd.service.
-[root@xzagzx001 ~]# systemctl stop xinetd.service
-[root@xzagzx001 ~]# systemctl disable telnet.socket
+[root@001 ~]# systemctl stop xinetd.service
+[root@001 ~]# systemctl disable telnet.socket
 Removed symlink /etc/systemd/system/sockets.target.wants/telnet.socket.
-[root@xzagzx001 ~]# systemctl stop telnet.socket
+[root@001 ~]# systemctl stop telnet.socket
 ```
 
 
