@@ -1,6 +1,6 @@
 ---
 layout: post
-title:新基建 新安全————2020湾区创见 · 网络安全大会
+title:[转载]新基建 新安全————2020湾区创见 · 网络安全大会
 categories: CyberSecurityConference
 description: 由深圳市人民政府主办,深圳市政务服务数据管理局、深圳市公安局、深圳市互联网信息办公室、深圳市密码管理局的2020年湾区创见·网络安全大会
 keywords: 网络安全大会
