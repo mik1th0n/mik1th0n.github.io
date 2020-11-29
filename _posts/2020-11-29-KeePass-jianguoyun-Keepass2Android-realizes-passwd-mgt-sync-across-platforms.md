@@ -18,7 +18,7 @@ keywords: KeePass,密码管理
 - 官方下载地址
 
   - **[下载keePass](https://keepass.info/download.html)**
-- **[下载keePass2Android](https://github.com/PhilippC/keepass2android/releases)**
+- **[下载keePass2Android](https://github.com/PhilippC/keepass2android/releases/tag/1.08c-r0)**
 
 ### 0x01 开启坚果云第三方应用服务
 
