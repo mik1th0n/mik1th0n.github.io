@@ -8,6 +8,10 @@ keywords: ITIL,ITIL v4,ITIL v4 Foundation,IT服务管理
 
 
 
+**目录**
+
+* TOC
+{:toc}
 ### 0x00  ITSM概述
 
  - 学习收益
@@ -1137,30 +1141,30 @@ keywords: ITIL,ITIL v4,ITIL v4 Foundation,IT服务管理
 - 项目经理责任制
 - 一次性、努力的过程
 
-![image-20201209120653425](2020-12-07-ITIL-4-Foundation-International-Certification.assets/image-20201209120653425.png)
+![image-20201209120653425](/images/posts/2020-12-07-ITIL-4-Foundation-International-Certification.assets/image-20201209120653425.png)
 
-![image-20201209120709048](2020-12-07-ITIL-4-Foundation-International-Certification.assets/image-20201209120709048.png)
+![image-20201209120709048](/images/posts/2020-12-07-ITIL-4-Foundation-International-Certification.assets/image-20201209120709048.png)
 
-![image-20201209120717208](2020-12-07-ITIL-4-Foundation-International-Certification.assets/image-20201209120717208.png)
+![image-20201209120717208](/images/posts/2020-12-07-ITIL-4-Foundation-International-Certification.assets/image-20201209120717208.png)
 
 > MBO：基于目标的管理
 
 ##### 0x01.7.2 什么是项目管理
 
-<img src="2020-12-07-ITIL-4-Foundation-International-Certification.assets/image-20201209120822984.png" alt="image-20201209120822984" style="zoom:80%;" />
+<img src="/images/posts/2020-12-07-ITIL-4-Foundation-International-Certification.assets/image-20201209120822984.png" alt="image-20201209120822984" style="zoom:80%;" />
 
 ##### 0x01.7.3 项目和运营
 
 - 运营是运营管理关注产品的持续生产和（或）服务的持续运作，例如生产运营、制造运营和会计业务。  
 
-![image-20201209120944730](2020-12-07-ITIL-4-Foundation-International-Certification.assets/image-20201209120944730.png)
+![image-20201209120944730](/images/posts/2020-12-07-ITIL-4-Foundation-International-Certification.assets/image-20201209120944730.png)
 
 ##### 0x01.7.4 项目管理过程
 
 - 项目生命周期是通过**一系列项目管理活动**进行的，即项目管理过程。  
 - 过程是为完成预定的产品、 成果或服务而执行的一系列相互关联的行动和活动。每个项目管理过程通过合适的项目管理工具和技术将一个或多个输入转化成一个或多个输出。 各项目管理过程通过它们所产生的输出建立逻辑联系。 过程可能包含了在整个项目期间相互重叠的活动。 
 
-![image-20201209121139419](2020-12-07-ITIL-4-Foundation-International-Certification.assets/image-20201209121139419.png)
+![image-20201209121139419](/images/posts/2020-12-07-ITIL-4-Foundation-International-Certification.assets/image-20201209121139419.png)
 
 ##### 0x01.7.5 项目交付方式
 
@@ -1255,7 +1259,7 @@ keywords: ITIL,ITIL v4,ITIL v4 Foundation,IT服务管理
 
 ##### 0x01.9.3 威胁应对策略
 
-<img src="2020-12-07-ITIL-4-Foundation-International-Certification.assets/image-20201209123805898.png" alt="image-20201209123805898" style="zoom:80%;" />
+<img src="/images/posts/2020-12-07-ITIL-4-Foundation-International-Certification.assets/image-20201209123805898.png" alt="image-20201209123805898" style="zoom:80%;" />
 
 ##### 0x01.9.4 机会应对策略
 
@@ -1285,23 +1289,23 @@ keywords: ITIL,ITIL v4,ITIL v4 Foundation,IT服务管理
 
 ##### 0x01.10.2 服务质量与服务成本
 
-<img src="2020-12-07-ITIL-4-Foundation-International-Certification.assets/image-20201209133204398.png" alt="image-20201209133204398" style="zoom:80%;" />
+<img src="/images/posts/2020-12-07-ITIL-4-Foundation-International-Certification.assets/image-20201209133204398.png" alt="image-20201209133204398" style="zoom:80%;" />
 
 ##### 0x01.10.3 预算、核算和收费
 
-<img src="2020-12-07-ITIL-4-Foundation-International-Certification.assets/image-20201209133308285.png" alt="image-20201209133308285" style="zoom: 67%;" />
+<img src="/images/posts/2020-12-07-ITIL-4-Foundation-International-Certification.assets/image-20201209133308285.png" alt="image-20201209133308285" style="zoom: 67%;" />
 
 ##### 0x01.10.4 业务价值
 
-<img src="2020-12-07-ITIL-4-Foundation-International-Certification.assets/image-20201209133605201.png" alt="image-20201209133605201" style="zoom: 50%;" />
+<img src="/images/posts/2020-12-07-ITIL-4-Foundation-International-Certification.assets/image-20201209133605201.png" alt="image-20201209133605201" style="zoom: 50%;" />
 
 ##### 0x01.10.5 KPI举例
 
-<img src="2020-12-07-ITIL-4-Foundation-International-Certification.assets/image-20201209133802763.png" alt="image-20201209133802763" style="zoom:67%;" />
+<img src="/images/posts/2020-12-07-ITIL-4-Foundation-International-Certification.assets/image-20201209133802763.png" alt="image-20201209133802763" style="zoom:67%;" />
 
 ##### 0x01.10.6 角色——IT财务经理
 
-<img src="2020-12-07-ITIL-4-Foundation-International-Certification.assets/image-20201209133910963.png" alt="image-20201209133910963" style="zoom: 67%;" />
+<img src="/images/posts/2020-12-07-ITIL-4-Foundation-International-Certification.assets/image-20201209133910963.png" alt="image-20201209133910963" style="zoom: 67%;" />
 
 #### 0x01.11  战略管理
 
@@ -1310,7 +1314,7 @@ keywords: ITIL,ITIL v4,ITIL v4 Foundation,IT服务管理
 - 战略（Strategy） :“制定企业宗旨和长期目标，并为实现目标选择行动方案，调配必要的资源”。
 - 战略的本质就是决定不做什么。 ----迈克尔 波特  
 
-<img src="2020-12-07-ITIL-4-Foundation-International-Certification.assets/image-20201209134033718.png" alt="image-20201209134033718" style="zoom:67%;" />
+<img src="/images/posts/2020-12-07-ITIL-4-Foundation-International-Certification.assets/image-20201209134033718.png" alt="image-20201209134033718" style="zoom:67%;" />
 
 ##### 0x01.11.1 何为战略管理
 
@@ -1319,7 +1323,7 @@ keywords: ITIL,ITIL v4,ITIL v4 Foundation,IT服务管理
 
 ##### 0x01.11.2 目的
 
-<img src="2020-12-07-ITIL-4-Foundation-International-Certification.assets/image-20201209134233766.png" alt="image-20201209134233766" style="zoom:67%;" />
+<img src="/images/posts/2020-12-07-ITIL-4-Foundation-International-Certification.assets/image-20201209134233766.png" alt="image-20201209134233766" style="zoom:67%;" />
 
 ##### 0x01.11.3 目标（Objective）  
 
@@ -1460,9 +1464,9 @@ keywords: ITIL,ITIL v4,ITIL v4 Foundation,IT服务管理
 - 现代激励理论体系
   - ——激励理论、 X理论和Y理论、领导与管理、影响与能力四个方面。  
 
-<img src="2020-12-07-ITIL-4-Foundation-International-Certification.assets/image-20201209140443443.png" alt="image-20201209140443443" style="zoom:67%;" />
+<img src="/images/posts/2020-12-07-ITIL-4-Foundation-International-Certification.assets/image-20201209140443443.png" alt="image-20201209140443443" style="zoom:67%;" />
 
-![image-20201209140512448](2020-12-07-ITIL-4-Foundation-International-Certification.assets/image-20201209140512448.png)
+![image-20201209140512448](/images/posts/2020-12-07-ITIL-4-Foundation-International-Certification.assets/image-20201209140512448.png)
 
 ##### 0x01.13.4 现代激励理论
 
@@ -1488,7 +1492,7 @@ keywords: ITIL,ITIL v4,ITIL v4 Foundation,IT服务管理
 
 ##### 0x01.13.5  团队一般成长规律-Bruce Tuckmans模型
 
-<img src="2020-12-07-ITIL-4-Foundation-International-Certification.assets/image-20201209141046948.png" alt="image-20201209141046948" style="zoom: 80%;" />
+<img src="/images/posts/2020-12-07-ITIL-4-Foundation-International-Certification.assets/image-20201209141046948.png" alt="image-20201209141046948" style="zoom: 80%;" />
 
 ### 0x02 ITL管理实践之服务管理实践
 
@@ -1504,21 +1508,149 @@ keywords: ITIL,ITIL v4,ITIL v4 Foundation,IT服务管理
   - 评估变更对可用性计划以及所有服务和资源的性能和能力的影响；
   - 前期采用经济高效的主动性措施提高服务可用性。
 
+##### 0x02.0.1 范围（Scope）
 
+<img src="/images/posts/2020-12-07-ITIL-4-Foundation-International-Certification.assets/image-20201209203524792.png" alt="image-20201209203524792" style="zoom:80%;" />
 
-<a href="/images/file/信息系统密码应用测评要求.pdf" alt="链接">信息系统密码应用测评要求🔗</a>
+- 可用性管理**不包括**连续性管理和发生重大灾难后业务流程的恢复。  
 
+##### 0x02.0.2 对业务的价值
 
+- 可用性管理流程保证系统和服务的可用性满足协定的业务需求
+- IT服务的可用性和可靠性能够**直接影响客户的满意度**
 
+##### 0x02.0.3 可用性管理相关概念
 
+- 可用性：服务、 组件或配置项在需要时执行约定功能的能力， 通常采用百分比测量：
+- 可用性（%） =（约定服务时间（AST） -宕机时间） /约定服务时间*100%
+- 可靠性：衡量服务、 组件或配置项能够不间断地执行其约定功能的时间长短。 采用平均系统故障间隔时间（MTBSI） 或者平均无故障时间（MTBF） 来测量和报告可靠性：
+- 可靠性（平均系统故障间隔时间） =约定服务时间/发生中断次数；
+- 可靠性（平均无故障时间） =（约定服务时间-总宕机时间） /发生中断次数。
+- 可维护性：用于测量服务、 组件或配置项在发生故障后， 可以恢复正常工作的速度和效率。 可维护性用平均服务恢复时间（MTRS） 测量和报告， 公式如下：
+- 可维护性（平均服务恢复时间） =总宕机时间/服务中断次数
+- 可服务性：第三方供应商满足合同条款的能力。 该合同将包括为配置项约定的可靠性、 可维护性或可用性级别。  
 
+##### 0x02.0.4 可用性举例
 
+- 一个7x24小时的服务已经运行了5020小时， 这期间出现过两次宕机， 一次停了6小时， 另一次停了14小时， 请计算相关的值：
+  - 可用性Availability = (5,020–(6+14)) / 5,020 x 100% = 99.60%
+  - 可靠性Reliability (MTBSI) = 5,020 / 2 = 2,510小时
+  - 可靠性Reliability (MTBF) = [5,020–(6+14) ]/ 2 = 2,500 小时
+  - 可维护性Maintainability (MTRS) = (6+14) / 2 = 10小时  
+
+##### 0x02.0.5 可用性管理活动
+
+- 协商并商定可实现的**可用性**目标
+- 设计可提供**所需可用性级别**的基础架构和应用程序
+- 确保服务和组件能够收集衡量**可用性所需**的数据
+- **监控，分析和报告可用性**
+- **规划**可用性的改进
+- MTBF（平均无故障时间）测量服务失败的频率
+- MTRS（平均服务恢复时间）测量故障后服务恢复的速度
+- 哪些重要业务功能受到不同应用程序故障的影响
+- 在什么时候性能很慢，以至于服务实际上无法使用
+- 何时需要提供服务，以及服务提供商何时可以执行维护活动。
+
+##### 0x02.0.6 KPI举例
+
+- 服务和组件不可用性减少的比率；
+- 服务和组件可靠性提高的比率；
+- 评估和追溯所有违反SLR，SLA和UC的事件；
+- 由IT不可用导致的业务延迟成本减少的比率；
+- 及时完成定期的风险分析和系统审查；
+- 对服务满意的业务部门和用户的比例增加。
+
+##### 0x02.0.7 可用性经理（Availability Manager）
+
+- 职责
+  - 确保当前的服务交付达到服务级别协议中规定的业务需求；
+  - 确保所有的新服务交付能力达到服务级别协议中规定的要求；
+  - 辅助调查和诊断由于可用性问题或者服务、设备的不可用所带来的故障和问题；
+  - 参与IT基础架构的设计，包括软件和硬件设计中的可用性需求；
+  - 确定内外部设备的可用性、可维护性和可服务性需求。
 
 #### 0x02.1 业务分析
 
+##### 0x02.1.0 目的与范围
 
+- **业务分析实践的目的**是分析业务或其中的一些元素，定义其相关需求，并推荐解决方案以满足这些需求和/或解决业务问题，这必须促进利益相关者的价值创造。
+- **业务分析实践的工作范围包括：**使用和评估来自运营和支持的信息，以构建服务和实践在实时环境中的表现。这些知识不仅有助于确定**当前服务设计的改进领域**，还可以揭示可以**改进未来设计的经验训**。
+
+##### 0x02.1.1 IT中的业务分析
+
+- 在IT中，**业务分析实践经常应用于软件开发项目中**，但它们也适用于更高级别的体系结构，服务和组织的服务价值系统（SVS）。将业务分析的应用限制在单独的软件开发中就是冒着开发不完整解决方案的风险。
+
+##### 0x02.1.2 与业务分析相关的关键活动
+
+- 在**不断变化的内部和外部环境中分析**业务系统、业务流程、服务或体系结构；
+- 识别和优先考虑SVS的各个部分、以及需要改进的产品和服务、以及创新机会；
+- 评估和提出可以采取的行动以创造所需的改进。行动可能不仅包括IT系统变更，还包括流程变更、组织结构变更和员工发展；
+- 记录支持服务的业务需求，以实现所需的改进；
+- 在分析收集的需求并与利益相关者进行验证后，推荐解决方案；
+- 业务要求可以以实用为中心或以效用为重点；
+- **效用要求**通常将非功能性要求作为主要利益相关者和其他实践的输入。组织应致力于管理预定义验收标准库，以用于项目管理和软件开发与管理等实践；
+- **实用程序要求**由客户定义并且特定产品特有的功能要求。
 
 #### 0x02.2 容量和性能管理
+
+##### 0x02.2.0 目的和目标（Purpose and objective）
+
+- 能力和绩效管理实践的**目的**是确保服务达到**商定和预期的绩效**，以具有**成本效益的方式**满足当前和未来的需求。
+- **性能定义**：衡量系统，人员，团队，实践或服务所实现或提供的内容。
+- **服务性能**通常与在一个时间范围内执行的服务操作的数量，以及在给定的需求级别上完成服务操作所需的时间相关联。
+
+##### 0x02.2.1 范围（Scope）
+
+- 通过调优活动来最有效地使用存在的IT资源
+- 理解客户对当前和将来对IT资源的需求
+- 帮助去识别和解决任何与服务或组件能力有关的故障和问题
+- IT技术、能力、性能的所有方面，包括基础设施数据、环境、应用程序等
+
+##### 0x02.2.2 业务价值
+
+- 确保IT资源按计划的方式来提供连续的服务水平，其能够与当前和将来的业务需求相符合；
+- 结合业务规划，提供了能力规划来指导支撑业务规划所需的IT资源和资金。
+
+##### 0x02.2.3 追求两个平衡
+
+![image-20201209210608143](/images/posts/2020-12-07-ITIL-4-Foundation-International-Certification.assets/image-20201209210608143.png)
+
+##### 0x02.2.4 业务能力管理、服务能力管理与组件能力管理
+
+<img src="/images/posts/2020-12-07-ITIL-4-Foundation-International-Certification.assets/image-20201209210743893.png" alt="image-20201209210743893" style="zoom:80%;" />
+
+- 业务容量管理
+  - 把业务需求和业务计划转换为对IT服务和T基础架构的需求，并保证将来的业务对T服务的需求能够及时地被量化、设计、计划和实施
+- 服务容量管理
+  - 关注目前正在使用的这些T服务的绩效和容量
+- 组件容量管理
+  - 关注单个的技术组件的绩效、使用率和容量
+
+##### 0x02.2.5 KPI举例
+
+- 精确的业务预测：
+  - 按时地对负载产出的预测；
+  - 对业务趋势预测的百分比精度；
+  - 及时地把业务规划结合到能力规划中；
+  - 减少业务规划和能力规划之间的差异。
+- 关于当前和将来技术的知识：
+  - 监控所有服务和组件的性能和吞吐量的增强的能力；
+  - 符合业务需求的新技术的及时调整和实施（时间、成本、功能）；
+  - 减少因为性能或支持所导致的违背SLAs的旧技术的使用。
+- 规划和实施恰当的能力以符合业务需求的能力：
+  - 减少因为性能不佳导致的故障的数量；
+  - 减少因为能力不足导致的业务损失；
+  - 所有实施的新服务符合服务等级要求（SLRs）；
+  - 减少因为服务性能不佳或组件性能不佳导致的违背SLA的情况的数量。
+
+##### 0x02.2.6 容量经理（Capacity Manager）
+
+- 确保IT容量能够满足需要的服务级别；
+- 协助服务级别管理人员发现业务客户的容量需求；
+- 理解当前的基础设施和T服务的使用情况，充分发挥各个设备的最大容量；
+- 负责所有新系统和服务的选型，特别是使用建模技术确定容量需求。
+
+
 
 
 
