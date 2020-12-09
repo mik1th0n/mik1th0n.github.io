@@ -1506,7 +1506,7 @@ keywords: ITIL,ITIL v4,ITIL v4 Foundation,IT服务管理
 
 
 
-<a href="/_posts/信息系统密码应用测评要求.pdf" alt="链接">信息系统密码应用测评要求🔗</a>
+<a href="/images/file/信息系统密码应用测评要求.pdf" alt="链接">信息系统密码应用测评要求🔗</a>
 
 
 
