@@ -34,7 +34,7 @@ permalink: /archives/
         {% if thisyear != 1 %}
             </ol>
         {% endif %}
-<h3>{{ post.date | date: '%m' }} ({{ counts[i] }})</h3>
+<h3>{{ post.date | date: '%Y-%m' }} ({{ counts[i] }})</h3>
         {% if thisyear != 0 %}
             {% assign thisyear = 0 %}
         {% endif %}
@@ -42,7 +42,7 @@ permalink: /archives/
         {% assign i = i | plus: 1 %}
     {% endif %}
 <li class="posts-list-item">
-<span class="posts-list-meta">{{ post.date | date:"%m-%d" }}</span>
+<span class="posts-list-meta">{{ post.date | date:"&Y-%m-%d" }}</span>
 <a class="posts-list-name" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
 </li>
 {% endfor %}
