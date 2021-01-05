@@ -16,10 +16,10 @@ keywords: CTF,MISC,WriteUP
 
 ### 0x0.0 this_is_flag
 
-- 题目描述：Most flags are in the form flag{xxx}, for example:flag{th1s_!s_a_d4m0_4la9}
-- 看题目描述就行了，直接复制粘贴进行提交。
+- **题目描述：**Most flags are in the form flag{xxx}, for example:flag{th1s_!s_a_d4m0_4la9}
+- **解题思路：**看题目描述就行了，直接复制粘贴进行提交。
 
-- flag：`flag{th1s_!s_a_d4m0_4la9}`
+- **flag：**`flag{th1s_!s_a_d4m0_4la9}`
 
 ### 0x0.1 pdf
 
