@@ -602,9 +602,7 @@ name=name&age=11
 - http://tool.chacuo.net/cryptaes
 - http://tools.jb51.net/password/des_encode
 - http://encode.chahuo.com/
-
 - https://www.mozhe.cn
-- https://ctf.bugku.com/challenges 
-
+- https://ctf.bugku.com/challenges
 - https://www.cr173.com/soft/21692.html
 - https://gitee.com/ComsenzDiscuz/DiscuzX
