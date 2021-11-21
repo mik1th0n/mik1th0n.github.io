@@ -78,14 +78,14 @@ mathjax: true
 
 ### 0x00.3 涉及资源
 
-- https://www.shodan.io
-- https://x.threatbook.cn
-- http://ping.chinaz.com
-- https://www.get-site-ip.com/
-- https://asm.ca.com/en/ping.php
-- https://github.com/Tai7sy/fuckcdn
-- https://github.com/boy-hack/w8fuckcdn
-- https://mp.weixin.qq.com/s?__biz=MzA5MzQ3MDE1NQ==&mid=2653939118&idx=1&sn=945b81344d9c89431a8c413ff633fc3a&chksm=8b86290abcf1a01cdc00711339884602b5bb474111d3aff2d465182702715087e22c852c158f&token=268417143&lang=zh_CN#rd
+- SHODAN搜索引擎：https://www.shodan.io
+- 微步在线情报社区：https://x.threatbook.cn
+- 站长工具-ping：http://ping.chinaz.com
+- Check ip for any site on the web：https://www.get-site-ip.com/
+- App Synthetic Monitor：https://asm.ca.com/en/ping.php
+- CDN真实IP扫描：https://github.com/Tai7sy/fuckcdn
+- 通过扫描全网绕过CDN获取网站IP地址：https://github.com/boy-hack/w8fuckcdn
+- 实战秒杀BC下的CDN节点：https://mp.weixin.qq.com/s?__biz=MzA5MzQ3MDE1NQ==&mid=2653939118&idx=1&sn=945b81344d9c89431a8c413ff633fc3a&chksm=8b86290abcf1a01cdc00711339884602b5bb474111d3aff2d465182702715087e22c852c158f&token=268417143&lang=zh_CN#rd
 
 ## 0x01 架构、搭建及WAF
 
@@ -142,9 +142,9 @@ mathjax: true
 
 ### 0x01.2 涉及资源
 
-- https://www.shodan.io/
-- https://www.webscan.cc/
-- https://github.com/EnableSecurity/wafw00f
+- SHODAN搜索引擎：https://www.shodan.io/
+- WebScan：https://www.webscan.cc/
+- WAF识别工具：https://github.com/EnableSecurity/wafw00f
 
 ## 0x02 APP及其他资产等
 
@@ -195,11 +195,11 @@ mathjax: true
 
 ### 0x02.3 涉及资源
 
-- https://fofa.so/
-- http://tool.chinaz.com
-- https://www.shodan.io/
-- https://www.zoomeye.org/
-- https://nmap.org/download.html
+- FOFA搜索引擎：https://fofa.so/
+- 站长工具：http://tool.chinaz.com
+- SHODAN搜索引擎：https://www.shodan.io/
+- 钟馗之眼：https://www.zoomeye.org/
+- Nmap：https://nmap.org/download.html
 
 ## 0x03 资产监控拓展
 
@@ -223,15 +223,15 @@ mathjax: true
 ### 0x03.1 Github 监控
 
 - 便于收集整理最新 exp 或 poc 便于发现相关测试目标的资产
-  - https://github.com/weixiao9188/wechat_push
+  - GitHub监控推送微信：https://github.com/weixiao9188/wechat_push
 
 ### 0x03.2 各种子域名查询
 
 ![子域名查询](/images/posts/2021-11-01-Penetration-testing-Information-collection.assets/web2_3.png)
 
 - 工具：
-  - https://github.com/euphrat1ca/LayerDomainFinder
-  - https://github.com/bit4woo/teemo
+  - 子域名查询工具1：https://github.com/euphrat1ca/LayerDomainFinder
+  - 子域名查询工具2：https://github.com/bit4woo/teemo
 
 ### 0x03.3 监控github上最新的CVE、RCE发布及其他
 
@@ -301,11 +301,9 @@ while(True):
 
 ### 0x03.4 涉及资源
 
-- [https://crt.sh](https://crt.sh/) 证书查询
-- https://dnsdb.io/zh-cn/ DNS查询
-- https://sct.ftqq.com/3.version server酱（推送）
-- https://tools.ipip.net/cdn.php CDN查询
-- https://securitytrails.com/domain/baidu.com/history/a IP历史查询
-- https://github.com/bit4woo/teemo
-- https://securitytrails.com/domain/www.baidu.com/history/a
-- https://www.opengps.cn/
+- 证书查询：https://crt.sh
+- DNS查询：https://dnsdb.io/zh-cn/
+- server酱（推送）：https://sct.ftqq.com/3.version 
+- CDN查询：https://tools.ipip.net/cdn.php 
+- IP历史查询：https://securitytrails.com/domain/baidu.com/history/a
+- IP定位查询：https://www.opengps.cn/
