@@ -50,7 +50,7 @@ mathjax: true
   - 为什么要进行子域名查询？
     - 因为搭建CDN要花钱，所以管理员会对主站，访问量比较大的做cdn服务，但是不会对子站做cdn，这时候就可以通过查找子域名来查找网站的真实IP，一般情况下，子站跟主站在同一个C段内
   - 子域名查询工具
-    - DNS查询：https://dnsdb.io/zh-cn/
+    - DNS查询：[https://dnsdb.io/zh-cn/](https://dnsdb.io/zh-cn/)
     - 微步在线：[https://x.threatbook.cn/](https://x.threatbook.cn/)
     - 在线域名信息查询：[http://toolbar.netcraft.com/site_report?url=](http://toolbar.netcraft.com/site_report?url=)
     - DNS、IP等查询：[http://viewdns.info/](http://viewdns.info/)
@@ -58,7 +58,7 @@ mathjax: true
     - SecurityTrails平台： [https://securitytrails.com/domain/www.baidu.com/history/a](https://securitytrails.com/domain/www.baidu.com/history/a)
     - 在线子域名二级域名查询：[http://tools.bugscaner.com/subdomain/](http://tools.bugscaner.com/subdomain/)
   - 子域名小技巧
-    - 一般情况下，“[www.XXX.com](http://www.xxx.com/) ”和XXX.com指向的是同一个DNS服务器，进入XXX.com会自动跳转到“[www.XXX.com](http://www.xxx.com/) ”，所以XXX.com不需要大流量，不用做CDN。如果加www检测不出来，可以试着去掉，或许就可以得到真实IP了
+    - 一般情况下，“www.XXX.com ”和XXX.com指向的是同一个DNS服务器，进入XXX.com会自动跳转到“www.XXX.com ”，所以XXX.com不需要大流量，不用做CDN。如果加www检测不出来，可以试着去掉，或许就可以得到真实IP了
 - 邮件服务查询很多公司内部都会有一个邮箱服务器，这种邮箱服务器大部分是不会做CDN的。因为邮箱服务器一般都是公司内部人去访问，所以大部分不做CDN。因此，我们就可以根据对方邮件服务器给我们发送的邮件，来判断对方的IP地址
 - 国外地址查询
   - 有些网站为了节省成本，不会把CDN部署在国外。假设现在你自己的网络公司有一个网站，但你的客户群体主要是在国内，因为国外用户不多，所以就不值得在国外搭建CDN，因此这样从国外访问国内的网站就很可能直接访问的就是主站的真实ip地址。
@@ -108,21 +108,21 @@ mathjax: true
   - 旁注
     - 旁注是一种入侵方法，在字面上解释就是－”从旁注入”，利用同一主机上面不同网站的漏洞得到webshell，从而利用主机上的程序或者是服务所暴露的用户所在的物理路径进行入侵。同服务器不同站点。两个网站或者多个网站放在同一个服务器上，其中一个网站是目标。
       前提条件：有多个站点服务器
-      192.168.1.1
-      [www.a.com（目标）](http://www.a.xn--com()-qm0tm52k/)
-      [www.b.com](http://www.b.com/)
-      ……..
+    - 192.168.1.1
+    - www.a.com
+    - www.b.com
+    - ……..
   - C段
     - 同网段不同服务器不同站点。网站有一个或多个站点，通过服务器IP地址的网段来进行测试。
-      192.168.1.1
-      [www.a.com（目标）](http://www.a.xn--com()-qm0tm52k/)
-      [www.b.com](http://www.b.com/)
-      ……..
-      192.168.1.101
-      [www.a.com](http://www.a.com/)
-      [www.b.com](http://www.b.com/)
-      ……..
-      通过查询网段1-254，去获取101网段服务器权限，在通过服务器同一个网段目标主机来实施内网安全的测试方法，来获取指定网服务器的权限。
+    - 192.168.1.1
+    - www.a.com
+    - www.b.com
+    - ……..
+    - 192.168.1.101
+    - www.a.com
+    - www.b.com
+    - ……..
+    - 通过查询网段1-254，去获取101网段服务器权限，在通过服务器同一个网段目标主机来实施内网安全的测试方法，来获取指定网服务器的权限。
 - 搭建软件特征站点
   - 一体化搭建软件：宝塔、PHPstudy、WMAP、INMAP（Nginx）
   - 常规的搭建软件都有常规的数据库的默认账号密码，如果搭建者不去更改的话，就能成为突破思路。
