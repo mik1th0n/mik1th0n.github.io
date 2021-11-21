@@ -28,7 +28,7 @@ mathjax: true
 ### 0x00.1 判断目标是否存在CDN
 
 - 利用多节点技术进行请求返回判断
-  - 超级ping网址：http://ping.chinaz.com/
+  - 超级ping网址：[http://ping.chinaz.com/](http://ping.chinaz.com/)
   - 无CDN情况：发现返回的IP都一样
   - 有CDN情况：发现有多个IP返回
 - Windows命令查询：nslookup
@@ -51,12 +51,12 @@ mathjax: true
     - 因为搭建CDN要花钱，所以管理员会对主站，访问量比较大的做cdn服务，但是不会对子站做cdn，这时候就可以通过查找子域名来查找网站的真实IP，一般情况下，子站跟主站在同一个C段内
   - 子域名查询工具
     - DNS查询：https://dnsdb.io/zh-cn/
-    - 微步在线：https://x.threatbook.cn/
-    - 在线域名信息查询：http://toolbar.netcraft.com/site_report?url=
-    - DNS、IP等查询：http://viewdns.info/
-    - CDN查询IP：https://tools.ipip.net/cdn.php
-    - SecurityTrails平台： https://securitytrails.com/domain/www.baidu.com/history/a
-    - 在线子域名二级域名查询：http://tools.bugscaner.com/subdomain/
+    - 微步在线：[https://x.threatbook.cn/](https://x.threatbook.cn/)
+    - 在线域名信息查询：[http://toolbar.netcraft.com/site_report?url=](http://toolbar.netcraft.com/site_report?url=)
+    - DNS、IP等查询：[http://viewdns.info/](http://viewdns.info/)
+    - CDN查询IP：[https://tools.ipip.net/cdn.php](https://tools.ipip.net/cdn.php)
+    - SecurityTrails平台： [https://securitytrails.com/domain/www.baidu.com/history/a](https://securitytrails.com/domain/www.baidu.com/history/a)
+    - 在线子域名二级域名查询：[http://tools.bugscaner.com/subdomain/](http://tools.bugscaner.com/subdomain/)
   - 子域名小技巧
     - 一般情况下，“[www.XXX.com](http://www.xxx.com/) ”和XXX.com指向的是同一个DNS服务器，进入XXX.com会自动跳转到“[www.XXX.com](http://www.xxx.com/) ”，所以XXX.com不需要大流量，不用做CDN。如果加www检测不出来，可以试着去掉，或许就可以得到真实IP了
 - 邮件服务查询很多公司内部都会有一个邮箱服务器，这种邮箱服务器大部分是不会做CDN的。因为邮箱服务器一般都是公司内部人去访问，所以大部分不做CDN。因此，我们就可以根据对方邮件服务器给我们发送的邮件，来判断对方的IP地址
@@ -73,19 +73,19 @@ mathjax: true
 - DNS历史记录，以量打量
   - 站点在使用CDN服务之前，它的真实IP地址可能被DNS服务器所记录到，此时我们就可以通过DNS历史记录找到目标真实IP。而“以量打量”就是常说的ddos攻击或者说是流量耗尽攻击，在网上开CDN的时候，都会分地区流量，就比如这个节点有100M流量，当这流量用完后，用户再访问就会访问网站真实的ip地址。
   - 情报社区：
-    - [https://x.threatbook.cnDNSdb](https://x.threatbook.cndnsdb/)
-    - https://dnsdb.io/zh-cn/
+    - [https://x.threatbook.cnDNSdb](https://x.threatbook.cnDNSdb)
+    - [https://dnsdb.io/zh-cn/](https://dnsdb.io/zh-cn/)
 
 ### 0x00.3 涉及资源
 
-- SHODAN搜索引擎：https://www.shodan.io
-- 微步在线情报社区：https://x.threatbook.cn
-- 站长工具-ping：http://ping.chinaz.com
-- Check ip for any site on the web：https://www.get-site-ip.com/
-- App Synthetic Monitor：https://asm.ca.com/en/ping.php
-- CDN真实IP扫描：https://github.com/Tai7sy/fuckcdn
-- 通过扫描全网绕过CDN获取网站IP地址：https://github.com/boy-hack/w8fuckcdn
-- 实战秒杀BC下的CDN节点：https://mp.weixin.qq.com/s?__biz=MzA5MzQ3MDE1NQ==&mid=2653939118&idx=1&sn=945b81344d9c89431a8c413ff633fc3a&chksm=8b86290abcf1a01cdc00711339884602b5bb474111d3aff2d465182702715087e22c852c158f&token=268417143&lang=zh_CN#rd
+- SHODAN搜索引擎：[https://www.shodan.io](https://www.shodan.io)
+- 微步在线情报社区：[https://x.threatbook.cn](https://x.threatbook.cn)
+- 站长工具-ping：[http://ping.chinaz.com](http://ping.chinaz.com)
+- Check ip for any site on the web：[https://www.get-site-ip.com/](https://www.get-site-ip.com/)
+- App Synthetic Monitor：[https://asm.ca.com/en/ping.php](https://asm.ca.com/en/ping.php)
+- CDN真实IP扫描：[https://github.com/Tai7sy/fuckcdn](https://github.com/Tai7sy/fuckcdn)
+- 通过扫描全网绕过CDN获取网站IP地址：[https://github.com/boy-hack/w8fuckcdn](https://github.com/boy-hack/w8fuckcdn)
+- 实战秒杀BC下的CDN节点：[https://mp.weixin.qq.com/s?__biz=MzA5MzQ3MDE1NQ==&mid=2653939118&idx=1&sn=945b81344d9c89431a8c413ff633fc3a&chksm=8b86290abcf1a01cdc00711339884602b5bb474111d3aff2d465182702715087e22c852c158f&token=268417143&lang=zh_CN#rd](https://mp.weixin.qq.com/s?__biz=MzA5MzQ3MDE1NQ==&mid=2653939118&idx=1&sn=945b81344d9c89431a8c413ff633fc3a&chksm=8b86290abcf1a01cdc00711339884602b5bb474111d3aff2d465182702715087e22c852c158f&token=268417143&lang=zh_CN#rd)
 
 ## 0x01 架构、搭建及WAF
 
@@ -136,15 +136,15 @@ mathjax: true
   - Web应用防护系统（也称为：网站应用级入侵防御系统。英文：Web Application Firewall，简称： WAF）。利用国际上公认的一种说法：Web应用防火墙是通过执行一系列针对HTTP/HTTPS的安全策略来专门为Web应用提供保护的一款产品。
   - 分为：硬件形式和软件形式。
 - 如何快速识别WAF
-  - wafw00f Github地址：https://github.com/EnableSecurity/wafw00f
-  - 官方使用文档：https://github.com/enablesecurity/wafw00f/wiki
+  - wafw00f Github地址：[https://github.com/EnableSecurity/wafw00f](https://github.com/EnableSecurity/wafw00f)
+  - 官方使用文档：[https://github.com/enablesecurity/wafw00f/wiki](https://github.com/enablesecurity/wafw00f/wiki)
   - 发现waf后尽量别用扫描工具，ip可能会被拉入黑名单
 
 ### 0x01.2 涉及资源
 
-- SHODAN搜索引擎：https://www.shodan.io/
-- WebScan：https://www.webscan.cc/
-- WAF识别工具：https://github.com/EnableSecurity/wafw00f
+- SHODAN搜索引擎：[https://www.shodan.io/](https://www.shodan.io/)
+- WebScan：[https://www.webscan.cc/](https://www.webscan.cc/)
+- WAF识别工具：[https://github.com/EnableSecurity/wafw00f](https://github.com/EnableSecurity/wafw00f)
 
 ## 0x02 APP及其他资产等
 
@@ -195,11 +195,11 @@ mathjax: true
 
 ### 0x02.3 涉及资源
 
-- FOFA搜索引擎：https://fofa.so/
-- 站长工具：http://tool.chinaz.com
-- SHODAN搜索引擎：https://www.shodan.io/
-- 钟馗之眼：https://www.zoomeye.org/
-- Nmap：https://nmap.org/download.html
+- FOFA搜索引擎：[https://fofa.so/](https://fofa.so/)
+- 站长工具：[http://tool.chinaz.com](http://tool.chinaz.com)
+- SHODAN搜索引擎：[https://www.shodan.io/](https://www.shodan.io/)
+- 钟馗之眼：[https://www.zoomeye.org/](https://www.zoomeye.org/)
+- Nmap：[https://nmap.org/download.html](https://nmap.org/download.html)
 
 ## 0x03 资产监控拓展
 
@@ -223,15 +223,15 @@ mathjax: true
 ### 0x03.1 Github 监控
 
 - 便于收集整理最新 exp 或 poc 便于发现相关测试目标的资产
-  - GitHub监控推送微信：https://github.com/weixiao9188/wechat_push
+  - GitHub监控推送微信：[https://github.com/weixiao9188/wechat_push](https://github.com/weixiao9188/wechat_push)
 
 ### 0x03.2 各种子域名查询
 
 ![子域名查询](/images/posts/2021-11-01-Penetration-testing-Information-collection.assets/web2_3.png)
 
 - 工具：
-  - 子域名查询工具1：https://github.com/euphrat1ca/LayerDomainFinder
-  - 子域名查询工具2：https://github.com/bit4woo/teemo
+  - 子域名查询工具1：[https://github.com/euphrat1ca/LayerDomainFinder](https://github.com/euphrat1ca/LayerDomainFinder)
+  - 子域名查询工具2：[https://github.com/bit4woo/teemo](https://github.com/bit4woo/teemo)
 
 ### 0x03.3 监控github上最新的CVE、RCE发布及其他
 
@@ -301,9 +301,9 @@ while(True):
 
 ### 0x03.4 涉及资源
 
-- 证书查询：https://crt.sh
-- DNS查询：https://dnsdb.io/zh-cn/
-- server酱（推送）：https://sct.ftqq.com/3.version 
-- CDN查询：https://tools.ipip.net/cdn.php 
-- IP历史查询：https://securitytrails.com/domain/baidu.com/history/a
-- IP定位查询：https://www.opengps.cn/
+- 证书查询：[https://crt.sh](https://crt.sh)
+- DNS查询：[https://dnsdb.io/zh-cn/](https://dnsdb.io/zh-cn/)
+- server酱（推送）：[https://sct.ftqq.com/3.version](https://sct.ftqq.com/3.version) 
+- CDN查询：[https://tools.ipip.net/cdn.php](https://tools.ipip.net/cdn.php) 
+- IP历史查询：[https://securitytrails.com/domain/baidu.com/history/a](https://securitytrails.com/domain/baidu.com/history/a)
+- IP定位查询：[https://www.opengps.cn/](https://www.opengps.cn/)
