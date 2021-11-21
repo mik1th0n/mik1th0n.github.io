@@ -73,7 +73,7 @@ mathjax: true
 - DNS历史记录，以量打量
   - 站点在使用CDN服务之前，它的真实IP地址可能被DNS服务器所记录到，此时我们就可以通过DNS历史记录找到目标真实IP。而“以量打量”就是常说的ddos攻击或者说是流量耗尽攻击，在网上开CDN的时候，都会分地区流量，就比如这个节点有100M流量，当这流量用完后，用户再访问就会访问网站真实的ip地址。
   - 情报社区：
-    - [https://x.threatbook.cnDNSdb](https://x.threatbook.cnDNSdb)
+    - [https://x.threatbook.cn](https://x.threatbook.cn)
     - [https://dnsdb.io/zh-cn/](https://dnsdb.io/zh-cn/)
 
 ### 0x00.3 涉及资源
