@@ -78,16 +78,13 @@ mathjax: true
 
 ### 0x00.3 涉及资源
 
-- https://www.shodan.io 
-- https://x.threatbook.cn 
-
-- http://ping.chinaz.com 
-- https://www.get-site-ip.com/ 
-
-- https://asm.ca.com/en/ping.php 
-- https://github.com/Tai7sy/fuckcdn 
-
-- https://github.com/boy-hack/w8fuckcdn 
+- https://www.shodan.io
+- https://x.threatbook.cn
+- http://ping.chinaz.com
+- https://www.get-site-ip.com/
+- https://asm.ca.com/en/ping.php
+- https://github.com/Tai7sy/fuckcdn
+- https://github.com/boy-hack/w8fuckcdn
 - https://mp.weixin.qq.com/s?__biz=MzA5MzQ3MDE1NQ==&mid=2653939118&idx=1&sn=945b81344d9c89431a8c413ff633fc3a&chksm=8b86290abcf1a01cdc00711339884602b5bb474111d3aff2d465182702715087e22c852c158f&token=268417143&lang=zh_CN#rd
 
 ## 0x01 架构、搭建及WAF
@@ -146,8 +143,7 @@ mathjax: true
 ### 0x01.2 涉及资源
 
 - https://www.shodan.io/
-- https://www.webscan.cc/ 
-
+- https://www.webscan.cc/
 - https://github.com/EnableSecurity/wafw00f
 
 ## 0x02 APP及其他资产等
@@ -201,10 +197,8 @@ mathjax: true
 
 - https://fofa.so/
 - http://tool.chinaz.com
-
 - https://www.shodan.io/
 - https://www.zoomeye.org/
-
 - https://nmap.org/download.html
 
 ## 0x03 资产监控拓展
@@ -312,8 +306,6 @@ while(True):
 - https://sct.ftqq.com/3.version server酱（推送）
 - https://tools.ipip.net/cdn.php CDN查询
 - https://securitytrails.com/domain/baidu.com/history/a IP历史查询
-- https://github.com/bit4woo/teemo 
-
+- https://github.com/bit4woo/teemo
 - https://securitytrails.com/domain/www.baidu.com/history/a
-
 - https://www.opengps.cn/
