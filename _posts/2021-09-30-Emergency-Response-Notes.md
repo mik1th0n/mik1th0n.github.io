@@ -10,10 +10,6 @@ mermaid: true
 mathjax: true
 ---
 
-[TOC]
-
-
-
 ![img](/images/posts/2021-09-30-Emergency-Response-Notes.assets/sum-title.png)
 
 ### 0x00 项目介绍
