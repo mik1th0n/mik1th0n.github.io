@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 应急响应实战笔记
+title: 【转载】应急响应实战笔记
 categories: 应急响应
 description: some word here
 keywords: 应急响应, Windows, Linux, Web,日志分析

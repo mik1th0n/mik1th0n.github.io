@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Linux 目录结构大全
+title: 【原创】Linux 目录结构大全
 categories: Linux
 description: 根据 FHS 的官方文件指出，其主要目的是希望让用户可以了解到数据通常放置于哪个目录下。也就是说，FHS 的重点在于规范每个特定的目录下应该要放置什么样子的数据而已。
 keywords: Linux,目录

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: kali 2021 国内更新源
+title: 【原创】kali 2021 国内更新源
 categories: [Linux, kali]
 description: some word here
 keywords: kali,Linux,更新源

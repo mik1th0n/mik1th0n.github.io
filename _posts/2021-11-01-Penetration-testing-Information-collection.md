@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 渗透测试-信息搜集
+title: 【原创】渗透测试-信息搜集
 categories: 渗透测试
 description: 本文章主要是针对学习渗透测试的信息搜集而记录的笔记，内容包括CDN绕过及识别、站点搭建及WAF、APP及其他资产、github监控等。
 keywords: 渗透测试,信息搜集

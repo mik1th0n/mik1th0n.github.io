@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 渗透测试-基础入门
+title: 【原创】渗透测试-基础入门
 categories: 渗透测试
 description: 本文章主要是针对学习渗透测试的基础知识而记录的笔记，内容包括渗透测试相关概念、web安全知识、系统及数据库知识、加密编码算法。
 keywords: 渗透测试,基础概念,HTTP/HTTPS协议,中间件,CMS,数据库，加密及编码

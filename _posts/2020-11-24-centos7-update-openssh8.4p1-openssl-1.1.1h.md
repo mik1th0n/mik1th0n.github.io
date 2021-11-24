@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CentOS 7升级OpenSSH 8.4p1和OpenSSL 1.1.1h
+title: 【原创】CentOS 7升级OpenSSH 8.4p1和OpenSSL 1.1.1h
 categories: OpenSSH
 description: 由于升级后的OpenSSH和OpenSSL版本，过了较长时间，仍会有漏洞，因此进行升级修复漏洞。
 keywords: CentOS7,OpenSSH,OpenSSL

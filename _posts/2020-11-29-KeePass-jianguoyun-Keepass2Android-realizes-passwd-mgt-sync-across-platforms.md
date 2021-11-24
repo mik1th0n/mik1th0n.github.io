@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 	KeePass+坚果云+KeePass2Android 实现跨平台进行密码管理与同步
+title: 	【原创】KeePass+坚果云+KeePass2Android 实现跨平台进行密码管理与同步
 categories: KeePass
 description: 昨天偶然看到一篇关于密码管理的文章，于是乎找到了使用KeePass + 坚果云 +  KeePass2Android 实现跨平台同步账号和密码的方法。
 keywords: KeePass,密码管理

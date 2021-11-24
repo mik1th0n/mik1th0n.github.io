@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 	使用rsync+sersync(inotify)实现Linux系统下文件实时同步
+title: 	【原创】使用rsync+sersync(inotify)实现Linux系统下文件实时同步
 categories: FileSync
 description: 
 keywords: rsync,inotify,Linux,文件同步,文件实时同步

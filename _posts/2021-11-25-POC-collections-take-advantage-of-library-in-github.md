@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GitHub上的POC集合利用库
+title: 【转载】GitHub上的POC集合利用库
 categories: [POC, 渗透测试]
 description: some word here
 keywords: POC, 渗透测试，GitHub
