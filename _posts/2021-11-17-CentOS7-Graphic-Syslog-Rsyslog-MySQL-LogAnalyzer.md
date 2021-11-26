@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 【原创】基于CentOS 7.8搭建图形化Syslog服务器（Rsyslog+MySQL+LogAnalyzer）
+title: 【原创】基于CentOS 7.6搭建图形化Syslog服务器（Rsyslog+MySQL+LogAnalyzer）
 categories: [Syslog]
 description: some word here
 keywords: CentOS 7, Syslog, Rsyslog, MySQL, LogAnalyzer
