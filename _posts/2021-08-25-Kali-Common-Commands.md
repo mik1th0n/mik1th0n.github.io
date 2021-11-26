@@ -1,23 +1,19 @@
 ---
 layout: post
 title: 【原创】Kali的常用命令
-categories: [kali, Linux]
+categories: [Kali, Linux]
 description: some word here
-keywords: Linux, Linux
+keywords: Kali, Linux
 flow: true
 sequence: true
 mermaid: true
 mathjax: true
 ---
 
-# kali的常用命令
-
 ## 0x00 常用命令
 
 - passwd：修改密码
-
 - passwd root：修改root用户密码
-
 - date 显示系统日期
 - sudo 后面加命令 就可以调用管理权限
 - apt-get update 更新软件列表
@@ -32,7 +28,6 @@ mathjax: true
   - apt-get upgrade 和 apt-get dist-upgrade 本质上是没有什么不同的。
   - 只不过，dist-upgrade会识别出当依赖关系改变的情形并作出处理，而upgrade对此情形不处理。
   - 例如软件包 a 原先依赖 b c d，但是在源里面可能已经升级了，现在是 a 依赖 b c e。这种情况下，dist-upgrade 会删除 d 安装 e，并把 a 软件包升级，而 upgrade 会认为依赖关系改变而拒绝升级 a软件包。
-
 - clear 清屏
 - sudo gpedit 特权调用gpedit编辑器
 - reboot 重启
@@ -51,9 +46,7 @@ mathjax: true
 - logout 注销用户登陆
 - pwd 当前路径
 
-
-
-## 2.文件夹或文本操作
+## 0x01 文件夹或文本操作
 
 - cd .. 返回上一级目录
 - cd ../.. 返回上级两级目录
@@ -73,7 +66,6 @@ mathjax: true
 - ls 显示文件和文件夹名
 - ls -a 显示所有的文件和文件夹 包含隐藏文件
 - ls -l 显示文件和目录的详细资料
-
 - 删除
   - rm -f 文件  删除文件
   - rm 文件夹名 删除文件夹
@@ -86,12 +78,11 @@ mathjax: true
   - rar a file1.rar test_file 创建一个叫做 ‘file1.rar’ 的包
   - rar x file1.rar 解压rar包
   - unrar x file1.rar 解压rar包
-  - 
 - DEB 包 (Debian, Ubuntu 以及类似系统)
   - dpkg -i package.deb 安装/更新一个 deb 包
   - dpkg -r package_name 从系统删除一个 deb 包
   - dpkg -l 显示系统中所有已经安装的 deb 包
-  - dpkg -l | grep httpd 显示所有名称中包含 “httpd” 字样的deb包
+  - dpkg -l \| grep httpd 显示所有名称中包含 “httpd” 字样的deb包
   - dpkg -s package_name 获得已经安装在系统中一个特殊包的信息
   - dpkg -L package_name 显示系统中已经安装的一个deb包所提供的文件列表
   - dpkg –contents package.deb 显示尚未安装的一个包所提供的文件列表
@@ -107,7 +98,7 @@ mathjax: true
 
 
 
-## 3.系统信息
+## 0x02 系统信息
 
 - arch 显示机器的处理器架构(1)
 - uname -m 显示机器的处理器架构(2)
@@ -117,7 +108,7 @@ mathjax: true
 - cat /proc/cpuinfo 显示CPU info的信息
 - cat /proc/mounts 显示已加载的文件系统
 
-## 4.vi 常用命令
+## 0x03 vi 常用命令
 
 - vi编辑器分为三种状态，分别是：
   - 1.命令模式（command mode）
@@ -127,13 +118,13 @@ mathjax: true
   - 3.底行模式（last line mode）
     - 将文件保存或退出vi，也可以设置编辑环境，如寻找字符串、列出行号……等。
 
-### **打开**
+### 0x03.1 打开
 
 - vi filename :打开或新建文件，并将光标置于第一行首
 - vi +n filename ：打开文件，并将光标置于第n行首
 - vi + filename ：打开文件，并将光标置于最后一行首
 
-### **编辑**
+### 0x03.2 编辑
 
 - i 在当前位置生前插入
 - I 在当前行首插入
@@ -143,18 +134,18 @@ mathjax: true
 - O 在当前行之前插入一行
 - 编辑结束，按Esc返回命令模式
 
-### **基本查找**
+### 0x03.3 基本查找
 
 - /text　　查找text，按n健查找下一个，按N健查找前一个。
 - ?text　　查找text，反向查找，按n健查找下一个，按N健查找前一个。
 - 查找很长的词，如果一个词很长，键入麻烦，可以将光标移动到该词上，按*或#键即可以该单词进行搜索，相当于/搜索。而#命令相当于?搜索。
 
-### **删除**
+### 0x03.4 删除
 
 - 删除当前行 dd
 - 删除2行 2dd
 
-### **拷贝和粘贴**
+### 0x03.5 拷贝和粘贴
 
 - yy 拷贝当前行
 - nyy 拷贝当前后开始的n行，比如2yy拷贝当前行及其下一行。
@@ -165,14 +156,14 @@ mathjax: true
   - 将光标移动到要复制的文本的结束的地方，按y复制。此时vim会自动将光标定位到选中文本的开始的地方，并退出可视模式。
   - 我移动光标到文本结束的地方，按 p粘贴。
 
-### **退出命令**
+### 0x03.6 退出命令
 
 - :wq 保存并退出
 - :q! 强制退出并忽略所有更改
 - :e! 放弃所有修改，并打开原来文件
 - :w保存修改
 
-### **显示行号**
+### 0x03.7 显示行号
 
 - set number
 
@@ -180,13 +171,13 @@ mathjax: true
 
 - 输入:n，代表跳转到第n行，如:100，就跳转到第100行。
 
-### 撤销操作
+### 0x03.8 撤销操作
 
 - u
 - vim与vi的区别
 - vim是vi的延申 vim编辑源码会高亮 vim的命令对vi是完全兼容的
 
-## 5.文件搜索
+## 0x04 文件搜索
 
 - find / -name file1 从 ‘/’ 开始进入根文件系统搜索文件和目录
 - find / -user user1 搜索属于用户 ‘user1’ 的文件和目录
@@ -223,11 +214,11 @@ mathjax: true
 
 - find / -name moonsec 2>/dev/null   搜索某个文件/文件夹 屏蔽出错信息
 
-## 6.用户和群组
+## 0x05 用户和群组
 
 - groupadd group_name 创建一个新用户组
 - groupdel group_name 删除一个用户组
-- cat /etc/group | grep group_name 
+- cat /etc/group \| grep group_name 
 - usermod -a -G moontea k1把用户k1附加其他用户组
 
 - 创建目录
@@ -247,7 +238,7 @@ mathjax: true
 
   - su 用户名 切换到普通用户
 
-## 7.系统管理
+## 0x06 系统管理
 
 - top
 
@@ -255,7 +246,7 @@ mathjax: true
 
 - 进程
   - ps -ef 查看所有进程信息
-  - ps -ef | grep tomcat 查找指定进程
+  - ps -ef \| grep tomcat 查找指定进程
   - kill -9 id 强制杀死进程
   - env 当前的变量
 
@@ -264,24 +255,24 @@ mathjax: true
   - hostname 查看主机名
   - history 查看历史命令
 
-## 8.查看磁盘信息
+## 0x07 查看磁盘信息
 
 - df   默认不带单位，挂载点、总容量、已用、可用
 
 - df  -h   友好显示（带单位），很多命令的友好显示都是-h
 
-## 9.查看内存信息
+## 0x08 查看内存信息
 
 - free   默认以KB为单位，总容量、已用、可用、缓存大小
 - free  -m   默认以MB为单位
 - free  -h   上面2种都不带单位、只显示数值，这种是友好显示的，会带单位G、M等
 
-## 10.查看环境变量
+## 0x09 查看环境变量
 
 - echo  $JAVA_HOME
-- echo $PATH | grep jdk
+- echo $PATH \| grep jdk
 
-## 11开机自启
+## 0x10 开机自启
 
 - 有很多程序往往都需要设置开机自启，比如tomcat、mysql、nginx等。
 - 在/etc/rc.d/rc.local文件中加入开机要自动执行的程序
@@ -289,7 +280,7 @@ mathjax: true
 - 挂载一个windows网络共享
   - mount -t smbfs -o username=user,password=pass //WinClient/share /mnt/share 
 
-## 12网卡配置
+## 0x11 网卡配置
 
 - vi /etc/network/interfaces
   - auto eth0  //指定网卡（根据ifconfig结果修改）
@@ -305,7 +296,7 @@ mathjax: true
 - 设置临时ip
   - ifconfig eth0 192.168.0.33
 
-## 13网卡DNS服务器
+## 0x12 网卡DNS服务器
 
 - vi /etc/resovl.conf
   - nameserver 114.114.114.114
@@ -318,7 +309,7 @@ mathjax: true
 
   - 注意有时候重启才生效
 
-## 14.服务相关  
+## 0x13 服务相关
 
 - 启动apache2服务器
 
@@ -335,7 +326,7 @@ mathjax: true
   - 开启路由转发
   - echo 1 > /proc/sys/net/ipv4/ip_forward
 
-## **15.linux常用网络命令**
+## 0x14 Linux常用网络命令
 
 - 网络和监控命令类似于这些： hostname, ping, ifconfig, iwconfig, netstat, nslookup, traceroute, finger, telnet, ethtool 用于查看 linux 服务器 ip 地址，管理服务器网络配置，通过 telnet 和 ethernet 建立与 linux 之间的网络链接，查看 linux 的服务器信息等。下面让我们看看在 Linux 下的网络和监控命令的使用。
 
@@ -369,7 +360,7 @@ mathjax: true
     - -an 查看当前所有已连接端口
     - -nlpt 查看当前所有tcp端口
     - -nlpu 查看当前所有udp端口
-    - -nlpt | grep 80 查看所有80端口使用情况
+    - -nlpt \| grep 80 查看所有80端口使用情况
   - netstat -lntup 查看所有的tcp和udp端口
 
 - nslookup 
@@ -435,9 +426,7 @@ mathjax: true
 
 - ethtool 是用于查询及设置网卡参数的命令
 
-
-
-## 16.防火墙iptables
+## 0x15 防火墙iptables
 
 - 查看防火墙规则
   - iptalbes -L
