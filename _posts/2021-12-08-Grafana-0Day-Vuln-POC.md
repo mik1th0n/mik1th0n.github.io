@@ -14,6 +14,8 @@ mathjax: true
 
 ## Grafana V8.0+版本存在未授权任意文件读取 0Day漏洞 - POC
 
+- POC：[https://github.com/mik1th0n/Grafana-0Day-Vuln-POC](https://github.com/mik1th0n/Grafana-0Day-Vuln-POC)
+
 ### 1 漏洞信息
 
 #### 1.1 基本信息
